@@ -45,8 +45,8 @@ round-avatar: True
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-university-img: "/assets/img/logo/logo-polyu.png"
-title-img: "/assets/img/logo/logo-transparent-png.png"
+# university-img: "/assets/img/logo/logo-polyu.png"
+title-img: "/assets/img/logo/logo-lumen-polyu.png"
 
 
 
