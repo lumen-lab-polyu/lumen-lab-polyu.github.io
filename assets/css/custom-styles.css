@@ -48,8 +48,8 @@ h4 {
 
 /* 调整团队成员头像大小 */
 .team-members-custom img {
-  width: 200px !important; /* 原来是 160px */
-  height: 200px !important; /* 原来是 160px */
+  width: 300px !important; /* 原来是 160px */
+  height: 300px !important; /* 原来是 160px */
 }
 
 /* 调整导航栏字体大小 */

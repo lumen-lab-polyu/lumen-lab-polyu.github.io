@@ -36,15 +36,51 @@ members:
 
   - name: Alumni
     list:
-      - name: Research Assistant
-        full: false
+      - full: false
         list:
           - name: Jingming Liang
             web_url: https://mirrorigin.github.io/
+            position_at_lab: Research Assistant
             period: 2023/09-2024/03
-            last_stop: Master, Huazhong University of Science and Technology
+            last_stop: Master Student, Huazhong University of Science and Technology
             next_stop: Ph.D. Student, University of Iowa
 ---
+
+<style>
+  /* 表格居中样式 */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+  }
+  
+  .centered-table {
+    width: 70vw !important;
+    max-width: 70vw !important;
+    margin: 0 auto !important;
+    table-layout: fixed !important;
+    border-collapse: collapse !important;
+  }
+
+  /* 调整头像成员之间的距离 */
+  .row.justify-content-center {
+    margin-left: -300px !important;  /* 调整行的左边距 */
+    margin-right: -300px !important; /* 调整行的右边距 */
+  }
+  
+  .row.justify-content-center .col-lg-3,
+  .row.justify-content-center .col-md-4,
+  .row.justify-content-center .col-sm-6 {
+    padding-left: 30px !important;  /* 增加左内边距（增大间距用更大的值，如40px） */
+    padding-right: 30px !important; /* 增加右内边距（增大间距用更大的值，如40px） */
+    margin-bottom: 40px !important; /* 调整底部间距（增大间距用更大的值，如50px） */
+  }
+</style>
 
 <div class="team-members-custom" style="margin-top: 30px;">
   {% for member_group in page.members %}
@@ -53,40 +89,37 @@ members:
       <hr style="margin-bottom: 30px;">
       {% for item_list_container in member_group.list %}
         {% if item_list_container.full == false %}
-          {% if item_list_container.name %}
-            <h3 class="text-center" style="margin-top: 20px; margin-bottom: 15px;">{{ item_list_container.name }}</h3>
-          {% endif %}
-          <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-10">
-              <table class="table table-borderless"> 
-                <thead>
+          <div class="table-container">
+            <table class="table table-borderless centered-table"> 
+              <thead>
+                <tr>
+                  <th style="width: 15%;">Name</th>
+                  <th style="width: 15%;">Period</th>
+                  <th style="width: 20%;">Position @ Lab</th>
+                  <th style="width: 25%;">Last Stop</th>
+                  <th style="width: 25%;">Next Stop</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for member in item_list_container.list %}
                   <tr>
-                    <th style="width: 20%;">Name</th>
-                    <th style="width: 20%;">Period</th>
-                    <th style="width: 30%;">Last Stop</th>
-                    <th style="width: 30%;">Next Stop</th>
+                    <td>
+                      <strong>
+                        {% if member.web_url %}
+                          <a href="{{ member.web_url }}" target="_blank" style="color: #212529;">{{ member.name }}</a>
+                        {% else %}
+                          {{ member.name }}
+                        {% endif %}
+                      </strong>
+                    </td>
+                    <td>{{ member.period }}</td>
+                    <td>{{ member.position_at_lab}}</td>
+                    <td>{{ member.last_stop }}</td>
+                    <td>{{ member.next_stop }}</td>
                   </tr>
-                </thead>
-                <tbody>
-                  {% for member in item_list_container.list %}
-                    <tr>
-                      <td style="vertical-align: middle;">
-                        <strong>
-                          {% if member.web_url %}
-                            <a href="{{ member.web_url }}" target="_blank" style="color: #212529;">{{ member.name }}</a>
-                          {% else %}
-                            {{ member.name }}
-                          {% endif %}
-                        </strong>
-                      </td>
-                      <td style="vertical-align: middle;">{{ member.period }}</td>
-                      <td style="vertical-align: middle;">{{ member.last_stop }}</td>
-                      <td style="vertical-align: middle;">{{ member.next_stop }}</td>
-                    </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
+                {% endfor %}
+              </tbody>
+            </table>
           </div>
         {% else %}
           <div class="row justify-content-center">
