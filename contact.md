@@ -79,9 +79,9 @@ subtitle: Get in touch with us
       <i class="fas fa-map-marker-alt"></i>
       <div>
         <strong>Address:</strong><br>
-        Department of Computing<br>
+        Department of Computing, Mong Man Wai Building<br>
         The Hong Kong Polytechnic University<br>
-        Hung Hom, Kowloon, Hong Kong
+        Hung Hom, Kowloon, Hong Kong SAR
       </div>
     </div>
     
@@ -97,7 +97,7 @@ subtitle: Get in touch with us
       <i class="fas fa-phone"></i>
       <div>
         <strong>Phone:</strong><br>
-        +852 xxxx xxxx
+        +852 2766 4009
       </div>
     </div>
     
@@ -105,7 +105,7 @@ subtitle: Get in touch with us
       <i class="fas fa-building"></i>
       <div>
         <strong>Office:</strong><br>
-        Room XXX, Department of Computing
+        PQ749, Department of Computing
       </div>
     </div>
   </div>
