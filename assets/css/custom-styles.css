@@ -1,0 +1,79 @@
+.container-md {
+  max-width: 90% !important;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-8.offset-xl-2 {
+    flex: 0 0 90%;
+    max-width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* 调整标题字体大小 */
+h1 {
+  font-size: 3rem !important; /* 原来是 2.25rem */
+}
+
+h2 {
+  font-size: 2.5rem !important; /* 原来是 1.875rem */
+}
+
+h3 {
+  font-size: 2rem !important; /* 原来是 1.5rem */
+}
+
+h4 {
+  font-size: 1.5rem !important; /* 原来是 1.125rem */
+}
+
+/* 调整页面标题和副标题大小 */
+.intro-header .page-heading h1 {
+  font-size: 4rem !important; /* 原来是 3.125rem */
+}
+
+.intro-header .post-heading h1 {
+  font-size: 3rem !important; /* 原来是 2.1875rem */
+}
+
+@media (min-width: 1200px) {
+  .intro-header .page-heading h1 {
+    font-size: 6rem !important; /* 原来是 5rem */
+  }
+  
+  .intro-header .post-heading h1 {
+    font-size: 4rem !important; /* 原来是 3.125rem */
+  }
+}
+
+/* 调整团队成员头像大小 */
+.team-members-custom img {
+  width: 200px !important; /* 原来是 160px */
+  height: 200px !important; /* 原来是 160px */
+}
+
+/* 调整导航栏字体大小 */
+.navbar-custom .navbar-nav .nav-item {
+  font-size: 1rem !important; /* 原来是 0.8125rem */
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.5rem !important; /* 原来是 1.125rem */
+}
+
+/* 调整文章预览标题大小 */
+.post-preview .post-title {
+  font-size: 2.5rem !important; /* 原来是 1.875rem */
+}
+
+@media (min-width: 768px) {
+  .post-preview .post-title {
+    font-size: 3rem !important; /* 原来是 2.25rem */
+  }
+}
+
+/* 调整页面副标题大小 */
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading {
+  font-size: 2rem !important; /* 原来是 1.6875rem */
+}

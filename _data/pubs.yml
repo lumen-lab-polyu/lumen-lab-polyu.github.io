@@ -1,0 +1,47 @@
+# When making a new entry, copy the commented out entry, paste it, uncomment, and fill out the fields.
+# If any of the fields are confusing look at previous examples for guidance.
+#- abs: null
+#  authors: null
+#  award: null
+#  bib: null
+#  img: null
+#  links: {}
+#  short_id: null
+#  site: null
+#  title: null
+#  venue: null
+#  video_embed: null
+#  tags: null
+# Current tags for research areas, see the research areas page for more details:
+# deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
+
+- abs: xxxxx
+  authors: "M. Wang, H. Su, J. Li, C. Li, N. Yin, L. Shen, J. Guo#"
+  award: null
+  img: ../assets/img/avatar-icon.png
+  links:
+    '[arXiv]': https://arxiv.org/abs/2411.13147
+    '[Github]': 
+  short_id: 2025_ICML_Wang
+  site:
+  title: " GraphCL: Graph-based Clustering for Semi-Supervised Medical Image Segmentation"
+  venue: International Conference on Machine Learning (ICML, CCF-A/Core-A*), 2025
+  video_embed: null
+  tags: ['apps']
+    # - apps
+
+- abs: xxxxx
+  authors: "Y. Chen, J. Guo#, S. Guo,"
+  award: null
+  img: ../assets/img/avatar-icon.png
+  links:
+    '[arXiv]': 
+    '[Github]': https://github.com/cseeyangchen/Neuron
+  short_id: 2025_CVPR_Chen
+  site:
+  title: "Neuron: Learning Context-Aware Evolving Representations for Zero-Shot Skeleton Action Recognition"
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A/Core-A*), 2025.
+  video_embed: null
+  tags: ['data']
+    # - data
+
