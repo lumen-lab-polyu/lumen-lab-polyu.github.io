@@ -972,7 +972,7 @@ publications:
 <style>
   /* 调整publications页面的宽度并居中 */
   .container-md {
-    max-width: 1200px !important;
+    max-width: 80vw !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
