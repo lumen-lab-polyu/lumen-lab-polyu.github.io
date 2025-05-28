@@ -31,18 +31,26 @@ subtitle: Low-resources, Ubiquitous, Model-efficiency, Edge intelligence, and No
   /* 照片轮播样式 */
   .photo-carousel-container {
     width: 100%;
-    max-width: 1000px; /* 🔧 修改这里来调整图像显示页面大小 */
+    max-width: 1000px;
     margin: 30px auto;
     position: relative;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* 🔧 新增：初始隐藏，防止闪烁 */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .photo-carousel-container.loaded {
+    opacity: 1;
   }
 
   .photo-carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    /* width将由JavaScript动态设置 */
+    /* 🔧 新增：初始状态防止显示异常 */
+    transform: translateX(0);
   }
 
   .carousel-slide {
@@ -225,61 +233,67 @@ let autoSlideInterval;
 let totalSlides = 0;
 let slides = [];
 let dots = [];
-let lastSlideTime = 0; // 添加：记录上次切换时间
+let lastSlideTime = 0;
+let isTransitioning = false;
 
-// 🔧 修改这里来调整自动播放速度（毫秒）
-const AUTO_SLIDE_INTERVAL = 3000; // 3秒切换一次
+const AUTO_SLIDE_INTERVAL = 3000;
 
-// 动态加粗subtitle中的大写字母
 function boldCapitalLetters() {
-  // 获取subtitle元素
   const subtitleElement = document.querySelector('.intro-header .page-heading .page-subheading');
   
   if (subtitleElement) {
-    // 获取原始文本
     const originalText = subtitleElement.textContent;
-    
-    // 使用正则表达式处理文本
     const boldedText = originalText
-      // 首先处理括号内的内容，将整个括号内容加粗
       .replace(/\(([^)]+)\)/g, '(<span class="bold-letter">$1</span>)')
-      // 然后处理括号外的大写字母
       .replace(/([A-Z])(?![^<]*>)/g, '<span class="bold-letter">$1</span>');
     
-    // 更新innerHTML
     subtitleElement.innerHTML = boldedText;
   }
 }
 
-// 初始化轮播
+// 🔧 修改：初始化轮播，先隐藏再设置
 function initCarousel() {
-  // 获取所有幻灯片
-  slides = document.querySelectorAll('.carousel-slide');
-  totalSlides = slides.length;
-  
-  // 动态设置CSS
   const carousel = document.getElementById('photoCarousel');
-  const slideWidth = 100 / totalSlides; // 每张图片的宽度百分比
+  const carouselContainer = document.querySelector('.photo-carousel-container');
   
-  // 设置轮播容器总宽度
-  carousel.style.width = `${totalSlides * 100}%`;
+  // 获取原始幻灯片
+  const originalSlides = document.querySelectorAll('.carousel-slide');
+  totalSlides = originalSlides.length;
+  
+  // 🔧 关键修改：创建第一张图片的克隆并添加到末尾
+  const firstSlideClone = originalSlides[0].cloneNode(true);
+  carousel.appendChild(firstSlideClone);
+  
+  // 重新获取所有幻灯片（包括克隆的）
+  slides = document.querySelectorAll('.carousel-slide');
+  const extendedTotalSlides = slides.length;
+  
+  // 设置轮播容器总宽度（包括克隆的图片）
+  carousel.style.width = `${extendedTotalSlides * 100}%`;
   
   // 设置每张图片的宽度
+  const slideWidth = 100 / extendedTotalSlides;
   slides.forEach(slide => {
     slide.style.width = `${slideWidth}%`;
   });
   
+  // 🔧 新增：设置初始位置（显示第一张图片）
+  currentSlideIndex = 0;
+  carousel.style.transform = `translateX(0%)`;
+  
   // 动态生成导航点
   generateDots();
   
-  // 显示第一张图片
-  showSlide(0);
+  // 🔧 新增：设置完成后显示轮播
+  setTimeout(() => {
+    carouselContainer.classList.add('loaded');
+  }, 100);
 }
 
 // 动态生成导航点
 function generateDots() {
   const dotsContainer = document.getElementById('carouselDots');
-  dotsContainer.innerHTML = ''; // 清空现有的点
+  dotsContainer.innerHTML = '';
   
   for (let i = 0; i < totalSlides; i++) {
     const dot = document.createElement('span');
@@ -289,84 +303,97 @@ function generateDots() {
     dotsContainer.appendChild(dot);
   }
   
-  // 重新获取生成的导航点
   dots = document.querySelectorAll('.dot');
 }
 
-// 显示指定的幻灯片
+// 🔧 修改：显示指定的幻灯片，支持无缝循环
 function showSlide(index) {
+  if (isTransitioning) return;
+  
   const carousel = document.getElementById('photoCarousel');
+  const extendedTotalSlides = slides.length;
+  const slideWidth = 100 / extendedTotalSlides;
   
   if (index >= totalSlides) {
-    currentSlideIndex = 0;
+    currentSlideIndex = totalSlides;
   } else if (index < 0) {
     currentSlideIndex = totalSlides - 1;
   } else {
     currentSlideIndex = index;
   }
   
-  // 动态计算移动距离
-  const slideWidth = 100 / totalSlides;
   const translateX = -currentSlideIndex * slideWidth;
   carousel.style.transform = `translateX(${translateX}%)`;
   
-  // 更新导航点状态
+  if (currentSlideIndex === totalSlides) {
+    isTransitioning = true;
+    
+    const handleTransitionEnd = () => {
+      carousel.style.transition = 'none';
+      currentSlideIndex = 0;
+      const newTranslateX = -currentSlideIndex * slideWidth;
+      carousel.style.transform = `translateX(${newTranslateX}%)`;
+      
+      carousel.offsetHeight;
+      carousel.style.transition = 'transform 0.5s ease-in-out';
+      
+      isTransitioning = false;
+      carousel.removeEventListener('transitionend', handleTransitionEnd);
+    };
+    
+    carousel.addEventListener('transitionend', handleTransitionEnd);
+  }
+  
+  const realIndex = currentSlideIndex >= totalSlides ? 0 : currentSlideIndex;
   dots.forEach((dot, i) => {
-    dot.classList.toggle('active', i === currentSlideIndex);
+    dot.classList.toggle('active', i === realIndex);
   });
   
-  // 更新切换时间
   lastSlideTime = Date.now();
 }
 
-// 修复：改进的手动切换函数
+// 修改：手动切换函数
 function changeSlide(direction) {
+  if (isTransitioning) return;
   showSlide(currentSlideIndex + direction);
-  // 重新开始自动播放，确保时间间隔稳定
   startAutoSlide();
 }
 
-// 修复：改进的跳转函数
+// 修改：跳转函数
 function currentSlide(index) {
+  if (isTransitioning) return;
   showSlide(index - 1);
-  // 重新开始自动播放，确保时间间隔稳定
   startAutoSlide();
 }
 
-// 修复：改进的自动播放函数
+// 自动播放函数
 function startAutoSlide() {
-  // 清除现有的计时器
   clearInterval(autoSlideInterval);
   
-  // 重新设置计时器
   autoSlideInterval = setInterval(() => {
-    showSlide(currentSlideIndex + 1);
+    if (!isTransitioning) {
+      showSlide(currentSlideIndex + 1);
+    }
   }, AUTO_SLIDE_INTERVAL);
 }
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', function() {
-  // 首先处理subtitle
   boldCapitalLetters();
-  
-  // 然后初始化轮播
   initCarousel();
   startAutoSlide();
   
   const carouselContainer = document.querySelector('.photo-carousel-container');
   
-  // 鼠标悬停时暂停自动播放
   carouselContainer.addEventListener('mouseenter', () => {
     clearInterval(autoSlideInterval);
   });
   
-  // 鼠标离开时恢复自动播放
   carouselContainer.addEventListener('mouseleave', () => {
     startAutoSlide();
   });
 });
 
-// 键盘控制
 document.addEventListener('keydown', function(event) {
   if (event.key === 'ArrowLeft') {
     changeSlide(-1);
