@@ -1023,7 +1023,7 @@ publications:
   /* al-folio 风格的年份分组样式 */
   .publications {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 80vw !important;
   }
   
   /* 年份样式调整 */
