@@ -4,7 +4,6 @@ title: Lumen Lab @ PolyU
 subtitle: Low-resources, Ubiquitous, Model-efficiency, Edge intelligence, and Novel applications (Lumen)
 ---
 
-
 <!--
     NOTE(daniel): if we use the `home` layout, it will automatically write blog
     posts at the end. For now let's not do this but we might reconsider if we
@@ -14,16 +13,368 @@ subtitle: Low-resources, Ubiquitous, Model-efficiency, Edge intelligence, and No
 <style>
   /* Adjust the page width just for this page alone. */
   .container-md {
-    max-width: 1500px; /* Set your desired maximum width */
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* Add any other custom styles for the page */
   body {
-    margin: 0; /* Set margin to 0 for the entire body */
+    margin: 0;
+  }
+
+  /* 强制subtitle中的大写字母加粗 */
+  .intro-header .page-heading .page-subheading .bold-letter {
+    font-weight: 600 !important;
+    font-family: var(--header-font) !important;
+  }
+
+  /* 照片轮播样式 */
+  .photo-carousel-container {
+    width: 100%;
+    max-width: 1200px; /* 🔧 修改这里来调整图像显示页面大小 */
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .photo-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* width将由JavaScript动态设置 */
+  }
+
+  .carousel-slide {
+    flex-shrink: 0;
+    position: relative;
+    /* width将由JavaScript动态设置 */
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: 500px; /* 🔧 修改这里来调整图像高度 */
+    object-fit: cover;
+    display: block;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .carousel-caption h4 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .carousel-caption p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  /* 导航点 */
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .dot.active {
+    background-color: #007bff;
+  }
+
+  .dot:hover {
+    background-color: #0056b3;
+  }
+
+  /* 左右箭头 */
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    outline: none !important; /* 强制移除焦点轮廓 */
+  }
+
+  .carousel-nav:hover,
+  .carousel-nav:focus {
+    background: rgba(0, 0, 0, 0.8);
+    outline: none !important;
+  }
+
+  .carousel-nav:active {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .carousel-nav.prev {
+    left: 15px;
+  }
+
+  .carousel-nav.next {
+    right: 15px;
+  }
+
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .photo-carousel-container {
+      margin: 20px 10px;
+    }
+    
+    .carousel-slide img {
+      height: 250px;
+    }
+    
+    .carousel-caption h4 {
+      font-size: 1rem;
+    }
+    
+    .carousel-caption p {
+      font-size: 0.8rem;
+    }
+    
+    .carousel-nav {
+      width: 35px;
+      height: 35px;
+      font-size: 1rem;
+      outline: none !important; /* 在小屏幕上也移除焦点轮廓 */
+    }
   }
 </style>
+
+<!-- 照片轮播 -->
+<div class="photo-carousel-container">
+  <div class="photo-carousel" id="photoCarousel">
+    <!-- 第一张照片 -->
+    <div class="carousel-slide">
+      <img src="/assets/img/lab_photos/Ngong_Ping_Group_Photo.jpg" alt="Lab Photo 1">
+      <div class="carousel-caption">
+        <p>Ngong Ping Hiking</p>
+      </div>
+    </div>
+    
+    <!-- 第二张照片 -->
+    <div class="carousel-slide">
+      <img src="/assets/img/lab_photos/Victoria_Harbour.jpg" alt="Lab Photo 2">
+      <div class="carousel-caption">
+        <p>Victoria Harbour</p>
+      </div>
+    </div>
+    
+    <!-- 第三张照片 -->
+    <div class="carousel-slide">
+      <img src="/assets/img/lab_photos/MM24.jpg" alt="Lab Photo 3">
+      <div class="carousel-caption">
+        <p>ACM Multimedia 2024 Conference</p>
+      </div>
+    </div>
+
+    <!-- 🔧 要添加新照片，只需在这里添加新的 carousel-slide div -->
+    <!--
+    <div class="carousel-slide">
+      <img src="/assets/img/lab_photos/new_photo.jpg" alt="Lab Photo 4">
+      <div class="carousel-caption">
+        <p>新照片描述</p>
+      </div>
+    </div>
+    -->
+  </div>
+  
+  <!-- 左右导航箭头 -->
+  <button class="carousel-nav prev" onclick="changeSlide(-1)">❮</button>
+  <button class="carousel-nav next" onclick="changeSlide(1)">❯</button>
+</div>
+
+<!-- 导航点容器 - 将由JavaScript动态生成 -->
+<div class="carousel-dots" id="carouselDots">
+</div>
+
+<script>
+let currentSlideIndex = 0;
+let autoSlideInterval;
+let totalSlides = 0;
+let slides = [];
+let dots = [];
+let lastSlideTime = 0; // 添加：记录上次切换时间
+
+// 🔧 修改这里来调整自动播放速度（毫秒）
+const AUTO_SLIDE_INTERVAL = 3000; // 3秒切换一次
+
+// 动态加粗subtitle中的大写字母
+function boldCapitalLetters() {
+  // 获取subtitle元素
+  const subtitleElement = document.querySelector('.intro-header .page-heading .page-subheading');
+  
+  if (subtitleElement) {
+    // 获取原始文本
+    const originalText = subtitleElement.textContent;
+    
+    // 使用正则表达式处理文本
+    const boldedText = originalText
+      // 首先处理括号内的内容，将整个括号内容加粗
+      .replace(/\(([^)]+)\)/g, '(<span class="bold-letter">$1</span>)')
+      // 然后处理括号外的大写字母
+      .replace(/([A-Z])(?![^<]*>)/g, '<span class="bold-letter">$1</span>');
+    
+    // 更新innerHTML
+    subtitleElement.innerHTML = boldedText;
+  }
+}
+
+// 初始化轮播
+function initCarousel() {
+  // 获取所有幻灯片
+  slides = document.querySelectorAll('.carousel-slide');
+  totalSlides = slides.length;
+  
+  // 动态设置CSS
+  const carousel = document.getElementById('photoCarousel');
+  const slideWidth = 100 / totalSlides; // 每张图片的宽度百分比
+  
+  // 设置轮播容器总宽度
+  carousel.style.width = `${totalSlides * 100}%`;
+  
+  // 设置每张图片的宽度
+  slides.forEach(slide => {
+    slide.style.width = `${slideWidth}%`;
+  });
+  
+  // 动态生成导航点
+  generateDots();
+  
+  // 显示第一张图片
+  showSlide(0);
+}
+
+// 动态生成导航点
+function generateDots() {
+  const dotsContainer = document.getElementById('carouselDots');
+  dotsContainer.innerHTML = ''; // 清空现有的点
+  
+  for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement('span');
+    dot.className = 'dot';
+    if (i === 0) dot.classList.add('active');
+    dot.onclick = () => currentSlide(i + 1);
+    dotsContainer.appendChild(dot);
+  }
+  
+  // 重新获取生成的导航点
+  dots = document.querySelectorAll('.dot');
+}
+
+// 显示指定的幻灯片
+function showSlide(index) {
+  const carousel = document.getElementById('photoCarousel');
+  
+  if (index >= totalSlides) {
+    currentSlideIndex = 0;
+  } else if (index < 0) {
+    currentSlideIndex = totalSlides - 1;
+  } else {
+    currentSlideIndex = index;
+  }
+  
+  // 动态计算移动距离
+  const slideWidth = 100 / totalSlides;
+  const translateX = -currentSlideIndex * slideWidth;
+  carousel.style.transform = `translateX(${translateX}%)`;
+  
+  // 更新导航点状态
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlideIndex);
+  });
+  
+  // 更新切换时间
+  lastSlideTime = Date.now();
+}
+
+// 修复：改进的手动切换函数
+function changeSlide(direction) {
+  showSlide(currentSlideIndex + direction);
+  // 重新开始自动播放，确保时间间隔稳定
+  startAutoSlide();
+}
+
+// 修复：改进的跳转函数
+function currentSlide(index) {
+  showSlide(index - 1);
+  // 重新开始自动播放，确保时间间隔稳定
+  startAutoSlide();
+}
+
+// 修复：改进的自动播放函数
+function startAutoSlide() {
+  // 清除现有的计时器
+  clearInterval(autoSlideInterval);
+  
+  // 重新设置计时器
+  autoSlideInterval = setInterval(() => {
+    showSlide(currentSlideIndex + 1);
+  }, AUTO_SLIDE_INTERVAL);
+}
+
+// 页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', function() {
+  // 首先处理subtitle
+  boldCapitalLetters();
+  
+  // 然后初始化轮播
+  initCarousel();
+  startAutoSlide();
+  
+  const carouselContainer = document.querySelector('.photo-carousel-container');
+  
+  // 鼠标悬停时暂停自动播放
+  carouselContainer.addEventListener('mouseenter', () => {
+    clearInterval(autoSlideInterval);
+  });
+  
+  // 鼠标离开时恢复自动播放
+  carouselContainer.addEventListener('mouseleave', () => {
+    startAutoSlide();
+  });
+});
+
+// 键盘控制
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'ArrowLeft') {
+    changeSlide(-1);
+  } else if (event.key === 'ArrowRight') {
+    changeSlide(1);
+  }
+});
+</script>
 
 <p>
 The Lumen Lab at The Hong Kong Polytechnic University (PolyU) investigates fundamental research problems to enable <b>Efficient Utilizations of AI Techniques</b>. 
@@ -33,5 +384,5 @@ The Lumen Lab at The Hong Kong Polytechnic University (PolyU) investigates funda
 </p>
 
 <p>
-We are actively recruiting self-motivated <b>PhD Students</b>, <b>Postdoctoral Researchers</b>, and <b>Research Assistants</b> to work and have fun together on multiple research projects. <b>Visiting Students/Researchers</b> (onsite/remote) are also welcome! If you are interested in joining the lab, please see the <a href="https://lumen-lab-polyu.github.io/join_us"><b>Join Us</b></a> page.
+We are actively recruiting self-motivated <b>PhD Students</b>, <b>Postdoctoral Researchers</b>, and <b>Research Assistants</b> to work and have fun together on multiple research projects. <b>Visiting Students/Researchers</b> (onsite/remote) are also welcome! If you are interested in joining the lab, please see the <a href="https://lumen-lab-polyu.github.io/joinus/"><b>Join Us</b></a> page.
 </p>
