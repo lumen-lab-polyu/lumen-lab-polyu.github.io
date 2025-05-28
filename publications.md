@@ -1452,7 +1452,7 @@ publications:
 </div>
 
 <!-- Publications Count Display -->
-<div id="publications-count" style="text-align: center; margin-bottom: 20px; color: #6c757d; font-style: italic;">
+<div id="publications-count" style="text-align: center; margin-bottom: 20px; color: #6c757d; font-style: italic; display: none;">
   Showing all publications
 </div>
 
@@ -1460,56 +1460,111 @@ publications:
 <div class="publications">
   {% assign years = page.publications | map: 'year' | uniq | sort | reverse %}
   
+  {% comment %} 🔧 修改：显示2023年及以后的年份 {% endcomment %}
   {% for year in years %}
-    <h2 class="year">{{ year }}</h2>
-    
-    {% for pub in page.publications %}
-      {% if pub.year == year %}
-        <div class="publication-item" 
-             data-tags="{% if pub.tags %}{{ pub.tags | join: ',' }}{% endif %}" 
-             data-year="{{ pub.year }}"
-             data-corresponding-author="{{ pub.corresponding_author | default: '' }}">
-          {% if pub.img %}
-          <div class="pub-img">
-            <img src="{{ pub.img | relative_url }}" 
-                 alt="{{ pub.title }}"
-                 style="width: {{ pub.img_width | default: '160px' }}; height: {{ pub.img_height | default: '100px' }};"
-                 data-width="{{ pub.img_width | default: '160px' }}"
-                 data-height="{{ pub.img_height | default: '100px' }}">
-          </div>
-          {% endif %}
-          
-          <div class="pub-content">
-            <!-- 🔧 修改：将title和tags放在同一行 -->
-            <div class="pub-title-area">
-              <div class="pub-title">{{ pub.title }}</div>
-              {% if pub.tags %}
-              <div class="pub-tags">
-                {% for tag in pub.tags %}
-                  <span class="pub-tag {{ tag | downcase }}">{{ tag }}</span>
+    {% if year >= 2023 %}
+      <h2 class="year">{{ year }}</h2>
+      
+      {% for pub in page.publications %}
+        {% if pub.year == year %}
+          <div class="publication-item" 
+               data-tags="{% if pub.tags %}{{ pub.tags | join: ',' }}{% endif %}" 
+               data-year="{{ pub.year }}"
+               data-corresponding-author="{{ pub.corresponding_author | default: '' }}">
+            {% if pub.img %}
+            <div class="pub-img">
+              <img src="{{ pub.img | relative_url }}" 
+                   alt="{{ pub.title }}"
+                   style="width: {{ pub.img_width | default: '160px' }}; height: {{ pub.img_height | default: '100px' }};"
+                   data-width="{{ pub.img_width | default: '160px' }}"
+                   data-height="{{ pub.img_height | default: '100px' }}">
+            </div>
+            {% endif %}
+            
+            <div class="pub-content">
+              <div class="pub-title-area">
+                <div class="pub-title">{{ pub.title }}</div>
+                {% if pub.tags %}
+                <div class="pub-tags">
+                  {% for tag in pub.tags %}
+                    <span class="pub-tag {{ tag | downcase }}">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+              
+              <div class="pub-authors">{{ pub.authors }}</div>
+              <div class="pub-venue">{{ pub.venue }}</div>
+              {% if pub.award and pub.award != "" %}
+              <div class="pub-award">{{ pub.award }}</div>
+              {% endif %}
+              {% if pub.links %}
+              <div class="pub-links">
+                {% for link in pub.links %}
+                  <a href="{{ link.url }}" class="pub-link {{ link.type | default: 'paper' }}">{{ link.name }}</a>
                 {% endfor %}
               </div>
               {% endif %}
             </div>
-            
-            <div class="pub-authors">{{ pub.authors }}</div>
-            <div class="pub-venue">{{ pub.venue }}</div>
-            <!-- 🔧 添加award显示 -->
-            {% if pub.award and pub.award != "" %}
-            <div class="pub-award">{{ pub.award }}</div>
-            {% endif %}
-            {% if pub.links %}
-            <div class="pub-links">
-              {% for link in pub.links %}
-                <a href="{{ link.url }}" class="pub-link {{ link.type | default: 'paper' }}">{{ link.name }}</a>
-              {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  
+  {% comment %} 🔧 新增：2022及以前的论文组 {% endcomment %}
+  {% assign old_pubs = page.publications | where_exp: "pub", "pub.year <= 2022" %}
+  {% if old_pubs.size > 0 %}
+    <h2 class="year">2022 and before</h2>
+    
+    {% assign old_years = old_pubs | map: 'year' | uniq | sort | reverse %}
+    {% for old_year in old_years %}
+      {% for pub in page.publications %}
+        {% if pub.year == old_year %}
+          <div class="publication-item" 
+               data-tags="{% if pub.tags %}{{ pub.tags | join: ',' }}{% endif %}" 
+               data-year="{{ pub.year }}"
+               data-corresponding-author="{{ pub.corresponding_author | default: '' }}">
+            {% if pub.img %}
+            <div class="pub-img">
+              <img src="{{ pub.img | relative_url }}" 
+                   alt="{{ pub.title }}"
+                   style="width: {{ pub.img_width | default: '160px' }}; height: {{ pub.img_height | default: '100px' }};"
+                   data-width="{{ pub.img_width | default: '160px' }}"
+                   data-height="{{ pub.img_height | default: '100px' }}">
             </div>
             {% endif %}
+            
+            <div class="pub-content">
+              <div class="pub-title-area">
+                <div class="pub-title">{{ pub.title }}</div>
+                {% if pub.tags %}
+                <div class="pub-tags">
+                  {% for tag in pub.tags %}
+                    <span class="pub-tag {{ tag | downcase }}">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+              
+              <div class="pub-authors">{{ pub.authors }}</div>
+              <div class="pub-venue">{{ pub.venue }}</div>
+              {% if pub.award and pub.award != "" %}
+              <div class="pub-award">{{ pub.award }}</div>
+              {% endif %}
+              {% if pub.links %}
+              <div class="pub-links">
+                {% for link in pub.links %}
+                  <a href="{{ link.url }}" class="pub-link {{ link.type | default: 'paper' }}">{{ link.name }}</a>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
           </div>
-        </div>
-      {% endif %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
+  {% endif %}
 </div>
 
 <script>
@@ -1629,9 +1684,18 @@ function filterPublications(selectedTag) {
     
     const yearHeaders = document.querySelectorAll('.year');
     yearHeaders.forEach(yearHeader => {
-        const year = yearHeader.textContent.trim();
-        const yearItems = document.querySelectorAll(`.publication-item[data-year="${year}"]`);
-        const hasVisibleItems = Array.from(yearItems).some(item => !item.classList.contains('filter-hidden'));
+        const yearText = yearHeader.textContent.trim();
+        let hasVisibleItems = false;
+        
+        if (yearText === '2022 and before') {
+            // 🔧 对于"2022 and before"，检查所有2022及以前的论文
+            const oldYearItems = document.querySelectorAll('.publication-item[data-year="2022"], .publication-item[data-year="2021"], .publication-item[data-year="2020"], .publication-item[data-year="2019"], .publication-item[data-year="2018"], .publication-item[data-year="2017"], .publication-item[data-year="2016"]');
+            hasVisibleItems = Array.from(oldYearItems).some(item => !item.classList.contains('filter-hidden'));
+        } else {
+            // 对于正常年份
+            const yearItems = document.querySelectorAll(`.publication-item[data-year="${yearText}"]`);
+            hasVisibleItems = Array.from(yearItems).some(item => !item.classList.contains('filter-hidden'));
+        }
         
         if (hasVisibleItems) {
             yearHeader.style.display = 'block';
@@ -1640,7 +1704,7 @@ function filterPublications(selectedTag) {
         }
     });
     
-    updatePublicationsCount(selectedTag, visibleCount);
+    // updatePublicationsCount(selectedTag, visibleCount);
     
     // 🔧 过滤后重新处理格式
     setTimeout(() => {
@@ -1649,15 +1713,15 @@ function filterPublications(selectedTag) {
     }, 50);
 }
 
-function updatePublicationsCount(tag, count) {
-    const countDisplay = document.getElementById('publications-count');
-    if (tag === 'all') {
-        countDisplay.textContent = `Showing all ${count} publications`;
-    } else {
-        const tagDisplayName = tag.replace(/-/g, ' ').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-        countDisplay.textContent = `Showing ${count} publication${count !== 1 ? 's' : ''} in "${tagDisplayName}"`;
-    }
-}
+// function updatePublicationsCount(tag, count) {
+//     const countDisplay = document.getElementById('publications-count');
+//     if (tag === 'all') {
+//         countDisplay.textContent = `Showing all ${count} publications`;
+//     } else {
+//         const tagDisplayName = tag.replace(/-/g, ' ').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+//         countDisplay.textContent = `Showing ${count} publication${count !== 1 ? 's' : ''} in "${tagDisplayName}"`;
+//     }
+// }
 
 // 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', function() {
