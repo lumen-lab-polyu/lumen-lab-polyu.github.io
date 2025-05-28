@@ -17,12 +17,15 @@ members:
       - full: true
         list:
           - name: Zhijie Rao
+            period: 2024/05-Present
             photo_url: /assets/img/members/Zhijie_Rao.png
             web_url: https://zjrao.github.io/
           - name: Miaoge Li
+            period: 2024/05-Present
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
           - name: Yang Chen
+            period: 2024/09-Present
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
 
@@ -31,6 +34,7 @@ members:
       - full: true
         list:
           - name: Fengxin Li
+            period: 2025/02-Present
             photo_url: /assets/img/members/Fengxin_Li.png
             web_url: https://fengxinlee.github.io/FengxinLI.github.io/
 
@@ -69,16 +73,44 @@ members:
 
   /* 调整头像成员之间的距离 */
   .row.justify-content-center {
-    margin-left: -300px !important;  /* 调整行的左边距 */
-    margin-right: -300px !important; /* 调整行的右边距 */
+    margin-left: -300px !important;
+    margin-right: -300px !important;
   }
   
   .row.justify-content-center .col-lg-3,
   .row.justify-content-center .col-md-4,
   .row.justify-content-center .col-sm-6 {
-    padding-left: 30px !important;  /* 增加左内边距（增大间距用更大的值，如40px） */
-    padding-right: 30px !important; /* 增加右内边距（增大间距用更大的值，如40px） */
-    margin-bottom: 40px !important; /* 调整底部间距（增大间距用更大的值，如50px） */
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-bottom: 40px !important;
+  }
+
+  /* 成员名字样式 */
+  .member-name {
+    font-size: 1.8rem !important; /* 增大字体 */
+    font-weight: 600 !important;
+    color: #007bff !important; /* 蓝色 */
+    margin-bottom: 8px !important;
+    line-height: 1.2 !important;
+  }
+
+  .member-name a {
+    color: #007bff !important; /* 确保链接也是蓝色 */
+    text-decoration: none !important;
+  }
+
+  .member-name a:hover {
+    color: #0056b3 !important; /* 悬停时稍微深一点的蓝色 */
+    text-decoration: underline !important;
+  }
+
+  /* Period信息样式 */
+  .member-period {
+    font-size: 1.2rem !important;
+    color: #666 !important;
+    font-style: italic !important;
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
   }
 </style>
 
@@ -143,14 +175,22 @@ members:
                     <span style="font-size: 1.2em; color: #aaa;">No Photo</span>
                   </div>
                 {% endif %}
-                <h5 style="margin-bottom: 5px;">
+                
+                <div class="member-name">
                   {% if member.web_url %}
-                    <a href="{{ member.web_url }}" target="_blank" style="color: #212529;">{{ member.name }}</a> 
+                    <a href="{{ member.web_url }}" target="_blank">{{ member.name }}</a> 
                   {% else %}
                     {{ member.name }}
                   {% endif %}
-                </h5>
-                {% if member.affiliation %}<p style="font-size: 0.9em; color: #666;"><em>{{ member.affiliation }}</em></p>{% endif %}
+                </div>
+                
+                {% if member.period %}
+                  <p class="member-period">{{ member.period }}</p>
+                {% endif %}
+                
+                {% if member.affiliation %}
+                  <p style="font-size: 0.9em; color: #666; margin-top: 5px;"><em>{{ member.affiliation }}</em></p>
+                {% endif %}
               </div>
             {% endfor %}
           </div>

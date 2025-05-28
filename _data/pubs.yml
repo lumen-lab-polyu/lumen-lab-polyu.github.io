@@ -16,7 +16,7 @@
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
 - abs: xxxxx
-  authors: "M. Wang, H. Su, J. Li, C. Li, N. Yin, L. Shen, J. Guo#"
+  authors: f"M. Wang, H. Su, J. Li, C. Li, N. Yin, L. Shen, J. Guo#"
   award: null
   img: ../assets/img/avatar-icon.png
   links:
