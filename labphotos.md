@@ -44,12 +44,12 @@ lab_photos:
         list:
           - event: IJCAI 2024 Conference
             photos:
-              - url: /assets/img/lab_photos/404-southpark.jpg
-                caption: "Conference venue"
-              - url: /assets/img/lab_photos/404-southpark.jpg
-                caption: "Presentation session"
-              - url: /assets/img/lab_photos/404-southpark.jpg
-                caption: "Networking event"
+              - url: /assets/img/lab_photos/IJCAI24_Poster.jpg
+                caption: "Poster presentation"
+              # - url: /assets/img/lab_photos/404-southpark.jpg
+              #   caption: "Presentation session"
+              # - url: /assets/img/lab_photos/404-southpark.jpg
+              #   caption: "Networking event"
       - month: July
         list:
           - event: Ngong Ping Hiking
