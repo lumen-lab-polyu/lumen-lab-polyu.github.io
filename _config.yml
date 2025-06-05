@@ -27,9 +27,11 @@ navbar-links:
   Members: "team"
   Publications: "publications"
   Lab Photots: "labphotos"
-  Others: 
-    - Join Us: "joinus"
-    - Contact: "contact"
+  Join Us: "joinus"
+  Contact: "contact"
+  #Others: 
+  #  - Join Us: "joinus"
+  #  - Contact: "contact"
 
 
 ################
