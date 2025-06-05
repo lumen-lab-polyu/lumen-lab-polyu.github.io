@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Join Us
-#subtitle: How to participate in the SLURM Lab
+#subtitle: How to participate in the Lumen Lab
 ---
 
 Thank you for your interest in our research! See below for how you can get
@@ -9,23 +9,15 @@ involved.
 <!--This information is last updated **March 2025**.-->
 
 If you have additional questions after reading the below and want to get involved, feel free to email me.
-My contact information is [available on my website](https://danielseita.github.io/).
-I encourage you to read [Yonatan Bisk's FAQ][2] about emailing professors.
-I will try to respond to emails that are tailored to me. For example, they might explain why my lab is a good fit.
-Please do *not* send the same generic mass email to a long list of professors.
+My contact information is [available on my website](https://jingcaiguo.github.io/).
+I will try to respond to emails that are tailored to our lab. For example, they might explain why our lab is a good fit between us. 
 
 ## PhD Students
 
-**I am not hiring new PhD students.**
+PolyU is committed to fostering academic excellence. A range of scholarships is designed to support the research studies, empowering students to excel in their PhD journey at our university.
 
-For PhD applicants: please apply to USC for a PhD program and indicate my name in
-your application. My home department is [computer science](https://www.cs.usc.edu/),
-though I am open to co-advising students from other departments (and co-advising
-within computer science). You do not need to email me, because I need to see your
-full application to make a decision (these include confidential letters of
-recommendation). If you email me, I will try to respond if the email is well-tailored.
-I will check all applications which list my name as a potential PhD advisor.
-Please also check out my [advising statement](#advising-statement).
+- **RGC Hong Kong PhD Fellowship Scheme (HKPFS)**: HKPFS aims to support the best and brightest students in the world with a prestigious fellowship to pursue their PhD studies. The HKPFS package includes 1) Annual Stipend: HK$337,200, 2) Annual Conference Grant: HK$14,000, and 3) Cash Award: HK$40,000 for the first year, and HK$20,000 per year from the second year to the end of the normal study period.
+- **PolyU Presidential PhD Fellowship Scheme (PPPFS)**: PPPFS is a prestigious scheme designed for top candidates from around the world with exceptional academic/research achievements to pursue their PhD studies. The PPPFS package includes 1) Annual Stipend: HK$333,480, 2) Conference Grant: HK$25,000, and 3) Cash Award: HK$40,000 for the first year, and HK$20,000 per year from the second year to the end of the normal study period.
 
 I am especially interested in working with students with the following
 experience, skills, or criteria:
