@@ -38,7 +38,7 @@ members:
             photo_url: /assets/img/members/Tianqi_Wang.png
             web_url: https://openreview.net/profile?id=%7ETianqi_Wang4
 
-  - name: Visiting Ph.D. Students
+  - name: Visiting 
     list:
       - full: true
         list:
@@ -49,9 +49,9 @@ members:
 
   - name: Alumni
     list:
-      - full: false
+      - full: true
         list:
-          - name: Jingming Liang
+        - name: Zhijie Rao
             web_url: https://zjrao.github.io/
             position_at_lab: Research Assistant
             period: 2023/09-2024/05
