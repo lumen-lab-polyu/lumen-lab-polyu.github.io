@@ -26,10 +26,14 @@ news_items:
     type: "publication"
     title: "Survey paper published in Nature"
     content: "Our comprehensive survey on AI applications has been published in Nature journal."
-  - date: "2024-11-25"
+  - date: "2022-09"
     type: "event"
-    title: "Guest lecture by Prof. Smith"
-    content: "Prof. Smith from MIT delivered an inspiring lecture on the future of artificial intelligence."
+    title: "NSFC Young Scientists Fund"
+    content: "Dr. Jingcai Guo received a Young Scientists Fund from the National Natural Science Foundation of China (NSFC), as the PI"
+  - date: "2022-01"
+    type: "award"
+    title: "NSFC Young Scientists Fund"
+    content: "Dr. Jingcai Guo received a Young Scientists Fund from the National Natural Science Foundation of China (NSFC), as the PI"
 ---
 
 <style>
