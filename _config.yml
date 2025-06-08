@@ -23,7 +23,7 @@ author: Lumen Lab at PolyU
 
 navbar-links:
   Home: "/"
-  News: "news"
+  #News: "news"
   Members: "team"
   Publications: "publications"
   Lab Photots: "labphotos"
