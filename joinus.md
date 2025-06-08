@@ -33,4 +33,4 @@ We also welcome master and undergraduate students at PolyU. It would be great if
 
 ## External Visitors not at PolyU
 
-Visitors are another good option for us. To apply, please email me by pitching me a project idea.
+Visitors are another good option for us. To apply, please email me with a project idea, along with your complete CV and supporting documents. 
