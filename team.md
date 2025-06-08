@@ -29,6 +29,15 @@ members:
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
 
+    - name: Research Assistants
+    list:
+      - full: true
+        list:
+          - name: Tianqi Wang
+            period: 2024/09-Present
+            photo_url: /assets/img/members/Tianqi_Wang.png
+            web_url: https://openreview.net/profile?id=%7ETianqi_Wang4
+
   - name: Visiting Ph.D. Students
     list:
       - full: true
@@ -43,6 +52,12 @@ members:
       - full: false
         list:
           - name: Jingming Liang
+            web_url: https://zjrao.github.io/
+            position_at_lab: Research Assistant
+            period: 2023/09-2024/05
+            last_stop: Master Student, Xiamen University
+            next_stop: Ph.D. Student (our lab), The Hong Polytechnic University 
+        - name: Jingming Liang
             web_url: https://mirrorigin.github.io/
             position_at_lab: Research Assistant
             period: 2023/09-2024/03
