@@ -41,9 +41,9 @@ publications:
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "100px" # 🔧 自定义图片高度
     links:
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2411.13147"
-        type: "arxiv"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2411.13147"
+    #    type: "arxiv"
 
   
   - title: "TsCA: On the Semantic Consistency Alignment via Conditional Transport for Compositional Zero-Shot Learning"
@@ -57,9 +57,9 @@ publications:
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "100px" # 🔧 自定义图片高度
     links:
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2408.08703"
-        type: "arxiv"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2408.08703"
+    #    type: "arxiv"
 
   
   - title: "Exploring Transferable Homogenous Groups for Compositional Zero-Shot Learning"
@@ -73,9 +73,9 @@ publications:
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "100px" # 🔧 自定义图片高度
     links:
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2501.10695"
-        type: "arxiv"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2501.10695"
+    #    type: "arxiv"
   
   - title: "On the Discrimination and Consistency for Exemplar-Free Class Incremental Learning"
     authors: "T. Wang, J. Guo#, D. Li, Z. Chen"
@@ -88,9 +88,9 @@ publications:
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "100px" # 🔧 自定义图片高度
     links:
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2501.15454"
-        type: "arxiv"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2501.15454"
+    #    type: "arxiv"
   
   - title: "FedAPA: Server-side Gradient-Based Adaptive Personalized Aggregation for Federated Learning on Heterogeneous Data"
     authors: "Y. Sun, A. Sun, S. Pan, Z. Fu, J. Guo#"
@@ -103,9 +103,9 @@ publications:
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "160px" # 🔧 自定义图片高度
     links:
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2502.07456"
-        type: "arxiv"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
 
   
   - title: "In Context Meta LoRA Generation"
@@ -119,9 +119,9 @@ publications:
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "100px" # 🔧 自定义图片高度
     links:
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2501.17635"
-        type: "arxiv"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2501.17635"
+    #    type: "arxiv"
 
   - title: "ESBN: Estimation Shift of Batch Normalization for Source-free Universal Domain Adaptation"
     authors: "J. Li, H. Su, B. Wang, Y. Min, M. Wang, N. Yin, S. Wang, J. Guo#"
@@ -149,12 +149,12 @@ publications:
       # - name: "Paper"
       #   url: ""
       #   type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2411.11288"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/cseeyangchen/Neuron"
-        type: "code"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2411.11288"
+    #    type: "arxiv"
+    #  - name: "Github"
+    #    url: "https://github.com/cseeyangchen/Neuron"
+    #    type: "code"
   
   - title: "Epsilon: Exploring Comprehensive Visual-Semantic Projection for Multi-Label Zero-Shot Learning"
     authors: "Z. Liu, J. Guo#, S. Guo, X. Lu"
@@ -167,12 +167,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
     img_height: "120px" # 🔧 高度也相应增加
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/34098"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2408.12253"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/34098"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2408.12253"
+   #     type: "arxiv"
 
       
   - title: "Concept Matching with Agent for Out-of-Distribution Detection"
@@ -186,15 +186,15 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
     img_height: "120px" # 🔧 高度也相应增加
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/32481"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2405.16766"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/yuxiaoLeeMarks/CMA"
-        type: "code"
+    #  - name: "Paper"
+    #    url: "https://ojs.aaai.org/index.php/AAAI/article/view/32481"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2405.16766"
+    #    type: "arxiv"
+    #  - name: "Github"
+    #    url: "https://github.com/yuxiaoLeeMarks/CMA"
+    #    type: "code"
 
   - title: "DeNC: Unleash Neural Codecs in Video Streaming with Diffusion Enhancement"
     authors: "Q. Zhou, R. Li, J. Guo, Y. Huang, Z. Xu, L. Cui, S. Guo"
@@ -207,9 +207,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
     img_height: "100px" # 🔧 高度也相应增加
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/32107"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ojs.aaai.org/index.php/AAAI/article/view/32107"
+    #    type: "paper"
       # - name: "arXiv"
       #   url: "https://arxiv.org/abs/2405.16766"
       #   type: "arxiv"
@@ -228,12 +228,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
     img_height: "120px" # 🔧 高度也相应增加
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10742956"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2307.01750"
-        type: "arxiv"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/10742956"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2307.01750"
+    #    type: "arxiv"
       # - name: "Github"
       #   url: "https://github.com/yuxiaoLeeMarks/CMA"
       #   type: "code"
@@ -270,9 +270,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
     img_height: "120px" # 🔧 高度也相应增加
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10946219"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/document/10946219"
+   #     type: "paper"
       # - name: "arXiv"
       #   url: "https://arxiv.org/abs/2307.01750"
       #   type: "arxiv"
@@ -292,12 +292,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.ijcai.org/proceedings/2024/449"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2312.09709"
-        type: "arxiv"
+    #  - name: "Paper"
+    #    url: "https://www.ijcai.org/proceedings/2024/449"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2312.09709"
+    #    type: "arxiv"
 
   - title: "Dual Expert Distillation Network for Generalized Zero-Shot Learning"
     authors: "Z. Rao, J. Guo#, X. Lu, J. Liang, J. Zhang, H. Wang, K. Wei, X. Cao"
@@ -310,15 +310,15 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.ijcai.org/proceedings/2024/534"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2404.16348"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/zjrao/DEDN"
-        type: "code"
+    #  - name: "Paper"
+    #    url: "https://www.ijcai.org/proceedings/2024/534"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2404.16348"
+    #    type: "arxiv"
+    #  - name: "Github"
+    #    url: "https://github.com/zjrao/DEDN"
+    #    type: "code"
   
 
   - title: "Fine-Grained Side Information Guided Dual-Prompts for Zero-Shot Skeleton Action Recognition"
@@ -332,15 +332,15 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://dl.acm.org/doi/10.1145/3664647.3681196"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2404.07487"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/cseeyangchen/STAR"
-        type: "code"
+   #   - name: "Paper"
+   #     url: "https://dl.acm.org/doi/10.1145/3664647.3681196"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2404.07487"
+   #     type: "arxiv"
+   #   - name: "Github"
+   #     url: "https://github.com/cseeyangchen/STAR"
+   #     type: "code"
   
   - title: "SFP: Spurious Feature-Targeted Pruning for Out-of-Distribution Generalization"
     authors: "Y. Wang, J. Guo#, S. Guo, Y. Liu, J. Zhang, W. Zhang"
@@ -353,15 +353,15 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://dl.acm.org/doi/10.1145/3664647.3680969"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2305.11615"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/eigenailab/SFP"
-        type: "code"
+    #  - name: "Paper"
+    #    url: "https://dl.acm.org/doi/10.1145/3664647.3680969"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2305.11615"
+    #    type: "arxiv"
+    #  - name: "Github"
+    #    url: "https://github.com/eigenailab/SFP"
+    #    type: "code"
   
   - title: "FreePIH: Training-Free Painterly Image Harmonization with Diffusion Model"
     authors: "R. Li, J. Guo#, Q. Zhou, S. Guo"
@@ -374,12 +374,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://dl.acm.org/doi/10.1145/3664647.3680780"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2311.14926"
-        type: "arxiv"
+    #  - name: "Paper"
+    #    url: "https://dl.acm.org/doi/10.1145/3664647.3680780"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2311.14926"
+    #    type: "arxiv"
 
   
   - title: "Causally Motivated Personalized Federated Invariant Learning with Shortcut-Averse Information-Theoretic Regularization"
@@ -393,9 +393,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://icml.cc/virtual/2024/poster/34335"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://icml.cc/virtual/2024/poster/34335"
+    #    type: "paper"
   
   - title: "Geometry Awakening: Cross-Geometry Learning Exhibits Superiority over Individual Structures"
     authors: "Y. Sun, X. Cao, Y. Wang, W. Ye, J. Guo, Q. Guo"
@@ -408,9 +408,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d1b7d6244356456476231f6bece2c046-Abstract-Conference.html"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d1b7d6244356456476231f6bece2c046-Abstract-Conference.html"
+    #    type: "paper"
   
   - title: "CGraphNet: Contrastive Graph Context Prediction for Sparse Unlabeled Short Text Representation Learning on Social Media"
     authors: "J. Chen, J. Guo#, X. Li, H. Wang, Z. Xu, Z. Gong, L. Zhang, VCM. Leung"
@@ -423,9 +423,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/10702341"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/abstract/document/10702341"
+   #     type: "paper"
 
   - title: " A Review of Few-shot and Zero-shot Learning for Node Classification in Social Networks"
     authors: "J. Chen, R. Mi, H. Wang, H. Wu, J. Mo, J. Guo, Z. Lai, L. Zhang, VCM. Leung"
@@ -438,9 +438,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10701609"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/document/10701609"
+   #     type: "paper"
   
   - title: "Vision-Language Meets the Skeleton: Progressively Distillation with Cross-Modal Knowledge for 3D Action Representation"
     authors: "Y. Chen, T. He, J. Fu, L. Wang, J. Guo, H. Cheng"
@@ -453,15 +453,15 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "200px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/10812782"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2405.20606"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/cseeyangchen/C2VL"
-        type: "code"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/abstract/document/10812782"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2405.20606"
+   #     type: "arxiv"
+   #   - name: "Github"
+   #     url: "https://github.com/cseeyangchen/C2VL"
+   #     type: "code"
   
   - title: "Model Decomposition and Reassembly for Purified Knowledge Transfer in Personalized Federated Learning"
     authors: "J. Zhang, S. Guo, X. Ma, W. Xu, Q. Zhou, J. Guo, Z. Hong, J. Shan"
@@ -474,9 +474,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10689471"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/document/10689471"
+   #     type: "paper"
   
   - title: "Personalized Federated Domain-Incremental Learning Based on Adaptive Knowledge Matching"
     authors: "Y. Li, W. Xu, H. Wang, R. Li, Y. Qi, J. Guo"
@@ -489,12 +489,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://link.springer.com/chapter/10.1007/978-3-031-72952-2_8"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2407.05005"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://link.springer.com/chapter/10.1007/978-3-031-72952-2_8"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2407.05005"
+   #     type: "arxiv"
   
   - title: "Multi-modal Dual-embedding Networks for Malware Open-set Recognition"
     authors: "J. Guo, H. Wang, Y. Xu, W. Xu, Y. Zhan, Y. Sun, S. Guo"
@@ -507,12 +507,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10477023"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2305.01245"
-        type: "arxiv"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/10477023"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2305.01245"
+    #    type: "arxiv"
 
   - title: "Data Quality-aware Mixed-precision Quantization via Hybrid Reinforcement Learning"
     authors: "Y. Wang, S. Guo, J. Guo#, Y. Zhang, W. Zhang, Q. Zheng, J. Zhang"
@@ -525,12 +525,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/10566890"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2302.04453"
-        type: "arxiv"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/abstract/document/10566890"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2302.04453"
+    #    type: "arxiv"
   
   - title: "Unveiling User Interests: A Deep User Interest Exploration Network for Sequential Location Recommendation"
     authors: "J. Chen, J. Guo, Q. Zhang, K. Wu, L. Zhang, VCM. Leung, H. Wang, Z. Gong"
@@ -543,9 +543,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.sciencedirect.com/science/article/pii/S0020025524013306"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://www.sciencedirect.com/science/article/pii/S0020025524013306"
+    #    type: "paper"
 
   - title: "On the Robustness of Neural-enhanced Video Streaming Against Adversarial Attacks"
     authors: "Q. Zhou, J. Guo#, S. Guo, R. Li, J. Zhang, B. Wang, Z. Xu"
@@ -558,9 +558,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/29657"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29657"
+   #     type: "paper"
 
   - title: "ProCC: Progressive Cross-primitive Compatibility for Open-World Compositional Zero-Shot Learning"
     authors: "F. Huo, W. Xu, S. Guo, J. Guo#, H. Wang, Z. Liu, X. Lu"
@@ -573,12 +573,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "150px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/29164"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2211.12417"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29164"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2211.12417"
+   #     type: "arxiv"
   
   - title: "Non-Exemplar Online Class-incremental Continual Learning via Dual-prototype Self-augment and Refinement"
     authors: "F. Huo, W. Xu, J. Guo, H. Wang, Y. Fan"
@@ -591,12 +591,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "150px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/29165"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2303.10891"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29165"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2303.10891"
+   #     type: "arxiv"
   
   - title: "PASS: Patch Automatic Skip Scheme for Efficient On-device Video Perception"
     authors: "Q. Zhou, S. Guo, J. Pan, J. Liang, J. Guo#, Z. Xu, J. Zhou"
@@ -609,9 +609,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10381763"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/10381763"
+    #    type: "paper"
   
   - title: "Learning Personalized Causally Invariant Representations for Heterogeneous Federated Clients"
     authors: "X. Tang, S. Guo, J. Zhang, J. Guo"
@@ -624,9 +624,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://iclr.cc/virtual/2024/poster/19333"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://iclr.cc/virtual/2024/poster/19333"
+    #    type: "paper"
   
   - title: "DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning"
     authors: "S. Bai, J. Zhang, S. Guo, S. Li, J. Guo, J. Hou, T. Han, X. Lu"
@@ -639,12 +639,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_DiPrompT_Disentangled_Prompt_Tuning_for_Multiple_Latent_Domain_Generalization_in_CVPR_2024_paper.html"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2403.08506"
-        type: "arxiv"
+    #  - name: "Paper"
+    #    url: "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_DiPrompT_Disentangled_Prompt_Tuning_for_Multiple_Latent_Domain_Generalization_in_CVPR_2024_paper.html"
+    #    type: "paper"
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2403.08506"
+    #    type: "arxiv"
 
 
   - title: "C2KD: Bridging the Modality Gap for Cross-Modal Knowledge Distillation,"
@@ -658,9 +658,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "140px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://openaccess.thecvf.com/content/CVPR2024/html/Huo_C2KD_Bridging_the_Modality_Gap_for_Cross-Modal_Knowledge_Distillation_CVPR_2024_paper.html"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://openaccess.thecvf.com/content/CVPR2024/html/Huo_C2KD_Bridging_the_Modality_Gap_for_Cross-Modal_Knowledge_Distillation_CVPR_2024_paper.html"
+    #    type: "paper"
   
   - title: "Graph Knows Unknowns: Reformulate Zero-Shot Learning as Sample-Level Graph Recognition"
     authors: "J. Guo, S. Guo, Q. Zhou, Z. Liu, X. Lu, F. Huo"
@@ -673,9 +673,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "180px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ojs.aaai.org/index.php/AAAI/article/view/25942"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ojs.aaai.org/index.php/AAAI/article/view/25942"
+    #    type: "paper"
   
   - title: "(ML)2P-Encoder: On Exploration of Channel-Class Correlation for Multi-Label Zero-Shot Learning"
     authors: "Z. Liu, S. Guo, X. Lu, J. Guo#, J. Zhang, Y. Zeng, F. Huo"
@@ -688,12 +688,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://openaccess.thecvf.com/content/CVPR2023/html/Liu_ML2P-Encoder_On_Exploration_of_Channel-Class_Correlation_for_Multi-Label_Zero-Shot_Learning_CVPR_2023_paper.html"
-        type: "paper"
-      - name: "Github"
-        url: "https://github.com/simonzmliu/cvpr23_mlzsl"
-        type: "code"
+   #   - name: "Paper"
+   #     url: "https://openaccess.thecvf.com/content/CVPR2023/html/Liu_ML2P-Encoder_On_Exploration_of_Channel-Class_Correlation_for_Multi-Label_Zero-Shot_Learning_CVPR_2023_paper.html"
+   #     type: "paper"
+   #   - name: "Github"
+   #     url: "https://github.com/simonzmliu/cvpr23_mlzsl"
+   #     type: "code"
 
   - title: "Decomposed Soft Prompt Guided Fusion Enhancing for Compositional Zero-Shot Learning"
     authors: "X. Lu, S. Guo, Z. Liu, J. Guo#"
@@ -706,15 +706,15 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://openaccess.thecvf.com/content/CVPR2023/html/Lu_Decomposed_Soft_Prompt_Guided_Fusion_Enhancing_for_Compositional_Zero-Shot_Learning_CVPR_2023_paper.html"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2211.10681"
-        type: "arxiv"
-      - name: "Github"
-        url: "https://github.com/Forest-art/DFSP"
-        type: "code"
+   #   - name: "Paper"
+   #     url: "https://openaccess.thecvf.com/content/CVPR2023/html/Lu_Decomposed_Soft_Prompt_Guided_Fusion_Enhancing_for_Compositional_Zero-Shot_Learning_CVPR_2023_paper.html"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2211.10681"
+   #     type: "arxiv"
+   #   - name: "Github"
+   #     url: "https://github.com/Forest-art/DFSP"
+   #     type: "code"
 
 
   
@@ -729,9 +729,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10115052"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/document/10115052"
+   #     type: "paper"
   
   - title: "UTDNet: A Unified Triplet Decoder Network for Multimodal Salient Object Detection"
     authors: "F. Huo, Z. Liu, J. Guo#, W. Xu, S. Guo"
@@ -744,9 +744,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.sciencedirect.com/science/article/pii/S0893608023006755"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://www.sciencedirect.com/science/article/pii/S0893608023006755"
+    #    type: "paper"
   
   - title: "Towards performance-maximizing neural network pruning via global channel attention"
     authors: "Y. Wang, S. Guo, J. Guo, J. Zhang, W. Zhang, C. Yan, Y. Zhang"
@@ -759,9 +759,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.sciencedirect.com/science/article/pii/S0893608023006937"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://www.sciencedirect.com/science/article/pii/S0893608023006937"
+   #     type: "paper"
   
   - title: "Hwamei: A Learning-Based Synchronization Scheme for Hierarchical Federated Learning"
     authors: "T. Qi, Y. Zhan, P. Li, J. Guo, Y. Xia"
@@ -774,9 +774,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "200px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/10272466"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/10272466"
+    #    type: "paper"
   
   - title: "Towards Fairer and More Efficient Federated Learning via Multidimensional Personalized Edge Models"
     authors: "Y. Wang, J. Guo, J. Zhang, S. Guo, W. Zhang, Q. Zheng"
@@ -789,12 +789,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/10191956"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2302.04464"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/abstract/document/10191956"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2302.04464"
+   #     type: "arxiv"
   
 
   - title: "Personalized Federated Learning with Contextualized Generalization"
@@ -808,12 +808,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.ijcai.org/proceedings/2022/311"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2106.13044"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://www.ijcai.org/proceedings/2022/311"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2106.13044"
+   #     type: "arxiv"
   
   - title: "Towards Unbiased Multi-Label Zero-Shot Learning with Pyramid and Semantic Attention"
     authors: "Z. Liu, S. Guo, J. Guo#, Y. Xu, F. Huo"
@@ -826,12 +826,12 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/9953574"
-        type: "paper"
-      - name: "arXiv"
-        url: "https://arxiv.org/abs/2203.03483"
-        type: "arxiv"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/abstract/document/9953574"
+   #     type: "paper"
+   #   - name: "arXiv"
+   #     url: "https://arxiv.org/abs/2203.03483"
+   #     type: "arxiv"
   
   - title: "Conservative Novelty Synthesizing Network for Malware Recognition in an Open-Set Scenario"
     authors: "J. Guo, S. Guo, S. Ma, Y. Sun, Y. Xu"
@@ -844,9 +844,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/9503108"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/9503108"
+    #    type: "paper"
   
   - title: "INT8 Training with Loss-Aware Compensation and Backward Quantization for Tiny On-Device Learning"
     authors: "Q. Zhou, S. Guo, Z. Qu, J. Guo, Z. Xu, J. Zhang, T. Guo, B. Luo, J. Zhou"
@@ -859,9 +859,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://www.usenix.org/conference/atc21/presentation/zhou-qihua"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://www.usenix.org/conference/atc21/presentation/zhou-qihua"
+     #   type: "paper"
   
   - title: "On-Device Learning Systems for Edge Intelligence: A Software and Hardware Synergy Perspective"
     authors: "Q. Zhou, Z. Qu, S. Guo, B. Luo, J. Guo, Z. Xu, R. Akerkar"
@@ -874,9 +874,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "200px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/9366901"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/9366901"
+    #    type: "paper"
   
   - title: "Dual-View Attention Networks for Single Image Super-Resolution"
     authors: "J. Guo, S. Ma, J. Zhang, Q. Zhou, S. Guo"
@@ -889,9 +889,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://dl.acm.org/doi/10.1145/3394171.3413613"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://dl.acm.org/doi/10.1145/3394171.3413613"
+    #    type: "paper"
   
   - title: "A Novel Perspective to Zero-Shot Learning: Towards an Alignment of Manifold Structures via Semantic Feature Expansion"
     authors: "J. Guo, S. Guo"
@@ -904,9 +904,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "200px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/9055169"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/9055169"
+    #    type: "paper"
   
   - title: "Adaptive Adjustment with Semantic Feature Space for Zero-Shot Recognition"
     authors: "J. Guo, S. Guo"
@@ -919,9 +919,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "120px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/8682869"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/document/8682869"
+    #    type: "paper"
   
   - title: "EE-AE: An Exclusivity Enhanced Unsupervised Feature Learning Approach"
     authors: "J. Guo, S. Guo"
@@ -934,9 +934,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "100px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/8682891"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/abstract/document/8682891"
+    #    type: "paper"
   
   - title: "AMS-SFE: Towards an Alignment of Manifold Structures via Semantic Feature Expansion for Zero-Shot Learning"
     authors: "J. Guo, S. Guo"
@@ -949,9 +949,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/8784887"
-        type: "paper"
+    #  - name: "Paper"
+    #    url: "https://ieeexplore.ieee.org/abstract/document/8784887"
+    #    type: "paper"
 
   - title: "An improved incremental training approach for large-scaled dataset based on support vector machine"
     authors: "J. Guo"
@@ -964,9 +964,9 @@ publications:
     img_width: "200px"  # 🔧 这个论文的图片小一些
     img_height: "160px"  # 🔧 对应的高度
     links:
-      - name: "Paper"
-        url: "https://ieeexplore.ieee.org/document/7877062"
-        type: "paper"
+   #   - name: "Paper"
+   #     url: "https://ieeexplore.ieee.org/document/7877062"
+   #     type: "paper"
 ---
 
 <style>
