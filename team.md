@@ -43,7 +43,7 @@ members:
     list:
       - full: false
         list:
-        - name: Jingming Liang
+          - name: Jingming Liang
             web_url: https://mirrorigin.github.io/
             position_at_lab: Research Assistant
             period: 2023/09-2024/03
