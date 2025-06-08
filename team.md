@@ -30,7 +30,6 @@ members:
             web_url: https://cseeyangchen.github.io/
 
 
-
   - name: Visiting Ph.D. Students
     list:
       - full: true
@@ -42,7 +41,7 @@ members:
 
   - name: Alumni
     list:
-      - full: true
+      - full: false
         list:
         - name: Jingming Liang
             web_url: https://mirrorigin.github.io/
