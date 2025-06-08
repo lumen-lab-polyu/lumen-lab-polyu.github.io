@@ -41,7 +41,7 @@ members:
 
   - name: Alumni
     list:
-      - full: false
+      - full: ture
         list:
           - name: Jingming Liang
             web_url: https://mirrorigin.github.io/
