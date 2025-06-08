@@ -31,7 +31,7 @@ members:
 
 
 
-  - name: Visiting 
+  - name: Visiting Ph.D. Students
     list:
       - full: true
         list:
@@ -44,12 +44,6 @@ members:
     list:
       - full: true
         list:
-        - name: Zhijie Rao
-            web_url: https://zjrao.github.io/
-            position_at_lab: Research Assistant
-            period: 2023/09-2024/05
-            last_stop: Master Student, Xiamen University
-            next_stop: Ph.D. Student (our lab), The Hong Polytechnic University 
         - name: Jingming Liang
             web_url: https://mirrorigin.github.io/
             position_at_lab: Research Assistant
