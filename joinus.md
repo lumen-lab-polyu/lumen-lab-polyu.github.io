@@ -21,7 +21,7 @@ PolyU is committed to fostering academic excellence. A range of scholarships/fel
 - **PolyU Research Postgraduate Scholarship (PRPgS)**: PRPgS aims to provide financial support to PhD and MPhil students during their normal study period, allowing them to fully focus on their studies. Applicants will concurrently be considered for the PRPgS once they submit an application via RPgAdmission, no separate application is required. The PRPgS package includes 1) Annual Stipend: HK$226,080 and 2) Conference Grant: HK$25,000.
 - Besides, PolyU also provides some special schemes like **International PhD Fellowship Scheme (IPFS)** and **PolyU Sports Scholarship Scheme for RPg Students (PSSS)**. Please refer to the [PolyU Scholarship/Fellowship](https://jingcaiguo.github.io/) for more information.
 
-To apply, please email me first with your complete CV and supporting documents. Candidates with strong programming and mathematics backgrounds are preferred. We will get back to you soon **if your application could proceed further**. We apologize that we cannot reply to every email due to busy schedules.
+To apply, please email me first with your complete CV and supporting documents. Candidates with strong programming and mathematics backgrounds are preferred. We will get back to you soon **if your application could potentially proceed further**. We apologize that we cannot reply to every email due to busy schedules.
 
 ## Research Staffs
 
