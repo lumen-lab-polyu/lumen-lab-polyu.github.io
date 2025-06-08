@@ -41,7 +41,7 @@ members:
 
   - name: Alumni
     list:
-      - full: ture
+      - full: false
         list:
           - name: Zhijie Rao
             web_url: https://zjrao.github.io/
