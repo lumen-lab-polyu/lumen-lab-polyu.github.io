@@ -10,9 +10,9 @@ lab_photos:
         list:
           - event: Research Student Conference
             photos:
-              - url: /assets/img/lab_photos/RSC2025-1.jpg
+              - url: /assets/img/lab_photos/RSC2025-11.jpg
                 caption: "Postering 1"
-              - url: /assets/img/lab_photos/RSC2025-2.jpg
+              - url: /assets/img/lab_photos/RSC2025-22.jpg
                 caption: "Postering 2"
               - url: /assets/img/lab_photos/dinner1.jpg
                 caption: "Enjoying dinner together"
