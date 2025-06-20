@@ -6,16 +6,16 @@ subtitle: Memories from our research journey
 lab_photos:
   - year: 2025
     list:
-      - month: March
+      - month: June
         list:
-          - event: xxxxx
+          - event: Research Student Conference
             photos:
-              - url: /assets/img/lab_photos/404-southpark.jpg
-                caption: "Group photo at the restaurant"
-              - url: /assets/img/lab_photos/404-southpark.jpg
+              - url: /assets/img/lab_photos/RSC2025-1.jpg
+                caption: "Postering 1"
+              - url: /assets/img/lab_photos/RSC2025-2.jpg
+                caption: "Postering 2"
+              - url: /assets/img/lab_photos/dinner1.jpg
                 caption: "Enjoying dinner together"
-              - url: /assets/img/lab_photos/404-southpark.jpg
-                caption: "Lab members networking"
   - year: 2024
     list:
       - month: October
