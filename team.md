@@ -36,7 +36,7 @@ members:
           - name: Tianqi Wang
             period: 2024/09-Present
             photo_url: /assets/img/members/Tianqi_Wang.jpg
-            web_url: https://openreview.net/profile?id=%7ETianqi_Wang4
+            web_url: https://tianqi-wang1.github.io/
 
   - name: Visiting Ph.D. Students
     list:
