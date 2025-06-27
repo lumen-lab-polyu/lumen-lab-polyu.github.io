@@ -45,6 +45,30 @@ publications:
     #    url: "https://arxiv.org/abs/2411.13147"
     #    type: "arxiv"
 
+  - title: "SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning"
+    authors: "Z. Chen, Z. Zhao, J. Guo, J. Li, Z. Huang"
+    corresponding_author:
+    venue: "IEEE/CVF International Conference on Computer Vision (ICCV, CCF-A/Core-A*), 2025."
+    year: 2025
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/iccv-svip.png"
+    img_width: "200px"  # 🔧 这个论文的图片稍微大一些
+    img_height: "120px" # 🔧 高度也相应增加
+    links:
+
+  - title: "A Unified Framework to BRIDGE Complete and Incomplete Deep Multi-View Clustering under Non-IID Missing Patterns"
+    authors: "X. Jiang, B. He, P. Zhou, X. Chen, J. Guo, J. Xu, Y. Liao"
+    corresponding_author:
+    venue: "IEEE/CVF International Conference on Computer Vision (ICCV, CCF-A/Core-A*), 2025."
+    year: 2025
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/iccv-bridge.png"
+    img_width: "200px"  # 🔧 这个论文的图片稍微大一些
+    img_height: "120px" # 🔧 高度也相应增加
+    links:
+
   
   - title: "TsCA: On the Semantic Consistency Alignment via Conditional Transport for Compositional Zero-Shot Learning"
     authors: "M. Li, J. Guo#, Y. Xu, D. Wang, X. Cao, Z. Rao, S. Guo"
