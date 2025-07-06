@@ -29,6 +29,29 @@ publications:
   #       url: "bibtex-url"
   #       type: "bibtex"
 
+  - title: "Balancing Cross-Modal Attention for Generalized Zero-Shot Learning"
+    authors: "Z. Rao, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2025."
+    year: 2025
+    award:
+    tags: ["Data"]
+    img: "/assets/img/pubs/MM25-1.png"
+    img_width: "200px"  # 🔧 这个论文的图片小一些
+    img_height: "100px"  # 🔧 对应的高度
+    links:
+
+  - title: "Topic Guided Multi-faceted Semantic Disentanglement for CTR Prediction"
+    authors: "F. Li, Z. Yin, H. Liu, J. Guo, J. He, Y. LI, C. Zhou, J. Zhang, H. Gu"
+    corresponding_author:
+    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2025."
+    year: 2025
+    award:
+    tags: ["APPs"]
+    img: "/assets/img/pubs/MM25-2.png"
+    img_width: "200px"  # 🔧 这个论文的图片小一些
+    img_height: "100px"  # 🔧 对应的高度
+    links:
 
   - title: "GraphCL: Graph-based Clustering for Semi-Supervised Medical Image Segmentation"
     authors: "M. Wang, H. Su, J. Li, C. Li, N. Yin, L. Shen, J. Guo#"
