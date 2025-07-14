@@ -42,8 +42,8 @@ publications:
     links:
 
   - title: "Topic Guided Multi-faceted Semantic Disentanglement for CTR Prediction"
-    authors: "F. Li, Z. Yin, H. Liu, J. Guo, J. He, Y. LI, C. Zhou, J. Zhang, H. Gu"
-    corresponding_author:
+    authors: "F. Li, Z. Yin, H. Liu, J. Guo#, J. He, Y. LI, C. Zhou, J. Zhang, H. Gu"
+    corresponding_author: "J. Guo"
     venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2025."
     year: 2025
     award:
