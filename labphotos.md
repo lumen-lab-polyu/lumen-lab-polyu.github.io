@@ -4,22 +4,22 @@ title: Lab Photos
 subtitle: Memories from our research journey
 
 lab_photos:
-  - year: 2025
-    list:
-     - month: August
-       list:
-         - event: Invited Talk at RIKEN AIP, Tokyo
-           photos:
-             - url: /assets/img/lab_photos/riken.jpg
-               caption: "@ RIKEN AIP, Tokyo"
-             - url: /assets/img/lab_photos/riken2.jpg
-               caption: "@ RIKEN AIP, Tokyo"
-             - url: /assets/img/lab_photos/riken3.jpg
-               caption: "@ RIKEN AIP, Tokyo"
-             - url: /assets/img/lab_photos/riken5.jpg
-               caption: "@ RIKEN AIP, Tokyo"
-             - url: /assets/img/lab_photos/riken6.jpg
-               caption: "@ RIKEN AIP, Tokyo"          
+   - year: 2025
+     list:
+      - month: August
+        list:
+          - event: Invited Talk at RIKEN AIP, Tokyo
+            photos:
+              - url: /assets/img/lab_photos/riken.jpg
+                caption: "@ RIKEN AIP, Tokyo"
+              - url: /assets/img/lab_photos/riken2.jpg
+                caption: "@ RIKEN AIP, Tokyo"
+              - url: /assets/img/lab_photos/riken3.jpg
+                caption: "@ RIKEN AIP, Tokyo"
+              - url: /assets/img/lab_photos/riken5.jpg
+                caption: "@ RIKEN AIP, Tokyo"
+              - url: /assets/img/lab_photos/riken6.jpg
+                caption: "@ RIKEN AIP, Tokyo"          
       - month: June
         list:
           - event: Research Student Conference
