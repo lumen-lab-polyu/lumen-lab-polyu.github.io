@@ -9,7 +9,7 @@ lab_photos:
     - month: August
       list:
         - event: Invited Talk at RIKEN AIP, Tokyo
-          photos:
+          photos: 
             - url: /assets/img/lab_photos/riken.jpg
               caption: "@ RIKEN AIP, Tokyo"
             - url: /assets/img/lab_photos/riken2.jpg
