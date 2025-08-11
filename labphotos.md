@@ -4,8 +4,8 @@ title: Lab Photos
 subtitle: Memories from our research journey
 
 lab_photos:
-   - year: 2025
-     list:
+  - year: 2025
+    list:
       - month: August
         list:
           - event: Invited Talk at RIKEN AIP, Tokyo
