@@ -51,6 +51,12 @@ members:
     list:
       - full: false
         list:
+          - name: Fengxin Li
+            web_url: https://fengxinlee.github.io/FengxinLI.github.io/
+            position_at_lab: Visiting Ph.D. Student
+            period: 2025/02-2025/09
+            last_stop: Ph.D. Student, Renmin University of China
+            next_stop: Renmin University of China
           - name: Zhijie Rao
             web_url: https://zjrao.github.io/
             position_at_lab: Research Assistant
