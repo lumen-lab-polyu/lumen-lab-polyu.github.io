@@ -38,14 +38,6 @@ members:
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
 
-  - name: Visiting Ph.D. Students
-    list:
-      - full: true
-        list:
-          - name: Fengxin Li
-            period: 2025/02-Present
-            photo_url: /assets/img/members/Fengxin_Li.png
-            web_url: https://fengxinlee.github.io/FengxinLI.github.io/
 
   - name: Alumni
     list:
