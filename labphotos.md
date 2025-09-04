@@ -8,6 +8,36 @@ lab_photos:
     list:
       - month: August
         list:
+          - event: International Joint Conference on Artificial Intelligence 2025
+            photos:
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_group.jpg
+                caption: "Group Photo"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_miaoge.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_miaoge2.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_miaoge3.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_zhijie.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_zhijie2.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_zhijie3.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_tianqi.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_tianqi2.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_tianqi3.jpg
+                caption: "Oral Presentation"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_scene1.jpg
+                caption: "City Nightscape"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_scene2.jpg
+                caption: "City Nightscape"
+              - url: /assets/img/lab_photos/ijcai2025/ijcai_scene3.jpg
+                caption: "City Nightscape"
+      - month: August
+        list:
           - event: Invited Talk at RIKEN AIP, Tokyo
             photos:
               - url: /assets/img/lab_photos/riken.jpg
