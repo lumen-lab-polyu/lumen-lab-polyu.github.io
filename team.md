@@ -28,6 +28,7 @@ members:
             period: 2024/09-Present
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
+            
           - name: Tianqi Wang
             period: 2026/09 incoming
             photo_url: /assets/img/members/Tianqi_Wang.jpg
