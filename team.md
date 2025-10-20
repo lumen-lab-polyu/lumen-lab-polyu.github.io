@@ -32,16 +32,6 @@ members:
             period: 2026/09 incoming
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
-<!--
-  - name: Research Assistants
-    list:
-      - full: true
-        list:
-          - name: Tianqi Wang
-            period: 2024/09-Present
-            photo_url: /assets/img/members/Tianqi_Wang.jpg
-            web_url: https://tianqi-wang1.github.io/
- -->
 
   - name: Alumni
     list:
