@@ -87,15 +87,15 @@ members:
 
   /* 调整头像成员之间的距离 */
   .row.justify-content-center {
-    margin-left: -250px !important;
-    margin-right: -250px !important;
+    margin-left: -200px !important;
+    margin-right: -200px !important;
   }
   
   .row.justify-content-center .col-lg-3,
   .row.justify-content-center .col-md-4,
   .row.justify-content-center .col-sm-6 {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     margin-bottom: 40px !important;
   }
 
