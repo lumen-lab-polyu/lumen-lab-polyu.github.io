@@ -87,8 +87,8 @@ members:
 
   /* 调整头像成员之间的距离 */
   .row.justify-content-center {
-    margin-left: -300px !important;
-    margin-right: -300px !important;
+    margin-left: -250px !important;
+    margin-right: -250px !important;
   }
   
   .row.justify-content-center .col-lg-3,
@@ -101,7 +101,7 @@ members:
 
   /* 成员名字样式 */
   .member-name {
-    font-size: 1.8rem !important; /* 增大字体 */
+    font-size: 2.1rem !important; /* 增大字体 */
     font-weight: 600 !important;
     color: #007bff !important; /* 蓝色 */
     margin-bottom: 8px !important;
@@ -120,7 +120,7 @@ members:
 
   /* Period信息样式 */
   .member-period {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     color: #666 !important;
     font-style: italic !important;
     margin-top: 5px !important;
