@@ -30,7 +30,7 @@ members:
             web_url: https://cseeyangchen.github.io/
             
           - name: Tianqi Wang
-            period: 2026/09 incoming
+            period: 2026/05 incoming
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
 
