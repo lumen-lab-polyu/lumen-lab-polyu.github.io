@@ -28,7 +28,11 @@ members:
             period: 2024/09-Present
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
-
+          - name: Tianqi Wang
+            period: 2026/09 incoming
+            photo_url: /assets/img/members/Tianqi_Wang.jpg
+            web_url: https://tianqi-wang1.github.io/
+<!--
   - name: Research Assistants
     list:
       - full: true
@@ -37,12 +41,18 @@ members:
             period: 2024/09-Present
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
-
+ -->
 
   - name: Alumni
     list:
       - full: false
         list:
+          - name: Tianqi Wang
+            web_url: https://tianqi-wang1.github.io/
+            position_at_lab: Research Assistant
+            period: 2024/09-2025/09
+            last_stop: Master Student, University College London
+            next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
           - name: Fengxin Li
             web_url: https://fengxinlee.github.io/FengxinLI.github.io/
             position_at_lab: Visiting Ph.D. Student
