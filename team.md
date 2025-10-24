@@ -12,6 +12,15 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
+  - name: Postdoctoral Researchers
+    list:
+      - full: true
+        list:
+          - name: Xiaofeng Zou
+            period: 2025/12-Present
+            photo_url: /assets/img/members/Xiaofeng_Zou.png
+            web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
+
   - name: Ph.D. Students
     list:
       - full: true
@@ -28,7 +37,6 @@ members:
             period: 2024/09-Present
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
-            
           - name: Tianqi Wang
             period: 2026/05 incoming
             photo_url: /assets/img/members/Tianqi_Wang.jpg
