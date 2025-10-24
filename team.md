@@ -4,11 +4,11 @@ layout: page
 subtitle: 
 # full-width: true
 members:
-  - name: Principal Investigator
+  - name: PI
     list:
       - full: true
         list:
-          - name: Jingcai Guo
+          - name: Prof. Jingcai Guo
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
@@ -16,7 +16,7 @@ members:
     list:
       - full: true
         list:
-          - name: Xiaofeng Zou
+          - name: Dr. Xiaofeng Zou
             period: 2025/12-Present
             photo_url: /assets/img/members/Xiaofeng_Zou.png
             web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
@@ -25,19 +25,19 @@ members:
     list:
       - full: true
         list:
-          - name: Zhijie Rao
+          - name: Mr. Zhijie Rao
             period: 2024/05-Present
             photo_url: /assets/img/members/Zhijie_Rao.png
             web_url: https://zjrao.github.io/
-          - name: Miaoge Li
+          - name: Ms. Miaoge Li
             period: 2024/05-Present
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
-          - name: Yang Chen
+          - name: Mr. Yang Chen
             period: 2024/09-Present
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
-          - name: Tianqi Wang
+          - name: Mr. Tianqi Wang
             period: 2026/05 incoming
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
