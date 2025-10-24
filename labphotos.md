@@ -36,20 +36,7 @@ lab_photos:
                 caption: "City Nightscape"
               - url: /assets/img/lab_photos/ijcai2025/ijcai_scene3.jpg
                 caption: "City Nightscape"
-      - month: August
-        list:
-          - event: Invited Talk at RIKEN AIP, Tokyo
-            photos:
-              - url: /assets/img/lab_photos/riken.jpg
-                caption: "@RIKEN AIP, Tokyo"
-              - url: /assets/img/lab_photos/riken2.jpg
-                caption: "@RIKEN AIP, Tokyo"
-              - url: /assets/img/lab_photos/riken3.jpg
-                caption: "@RIKEN AIP, Tokyo"
-              - url: /assets/img/lab_photos/riken5.jpg
-                caption: "@RIKEN AIP, Tokyo"
-              - url: /assets/img/lab_photos/riken6.jpg
-                caption: "@RIKEN AIP, Tokyo"          
+    
       - month: June
         list:
           - event: Research Student Conference
