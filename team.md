@@ -50,7 +50,7 @@ members:
             web_url: https://tianqi-wang1.github.io/
             position_at_lab: Research Assistant
             period: 2024/09-2025/09
-            last_stop: Master Student, University College London
+            last_stop: Master Student, UCL London
             next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
           - name: Fengxin Li
             web_url: https://fengxinlee.github.io/FengxinLI.github.io/
