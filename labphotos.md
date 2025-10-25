@@ -6,6 +6,12 @@ subtitle: Memories from our research journey
 lab_photos:
   - year: 2025
     list:
+      - month: October
+        list:
+          - event: Lunch with Undergraduate Freshmen
+            photos:
+              - url: /assets/img/lab_photos/ug1.jpg
+                caption: "Undergraduate Freshmen"
       - month: August
         list:
           - event: International Joint Conference on Artificial Intelligence 2025
