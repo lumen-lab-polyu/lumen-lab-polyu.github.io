@@ -43,7 +43,7 @@ members:
             web_url: https://tianqi-wang1.github.io/
           - name: Mr. Xiaorui Jiang
             period: 2026/09 incoming
-            photo_url: /assets/img/members/Xiaorui_Jiang
+            photo_url: /assets/img/members/Xiaorui_Jiang.jpg
             web_url: https://xiaorui-jiang.github.io/
           - name: Mr. Mingfeng Zha
             period: 2026/09 incoming
