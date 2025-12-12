@@ -41,6 +41,14 @@ members:
             period: 2026/05 incoming
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
+          - name: Mr. Xiaorui Jiang
+            period: 2026/09 incoming
+            photo_url: /assets/img/members/Xiaorui_Jiang
+            web_url: https://xiaorui-jiang.github.io/
+          - name: Mr. Mingfeng Zha
+            period: 2026/09 incoming
+            photo_url: /assets/img/members/Mingfeng_Zha.jpg
+            web_url: https://winter-flow.github.io/
 
   - name: Alumni
     list:
