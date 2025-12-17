@@ -191,11 +191,11 @@ members:
                   <a href="{{ member.web_url }}" target="_blank">
                     <img src="{{ site.baseurl }}{{ member.photo_url }}" 
                          alt="{{ member.name }}" 
-                         style="width: 160px; height: 160px; 
+                         style="width: 140px; height: 140px; 
                                 object-fit: cover; 
-                                border-radius: 50%; 
+                                border-radius: 17%; 
                                 margin-bottom: 15px; 
-                                border: 3px solid #f0f0f0;
+                                border: 17px solid #f0f0f0;
                                 transition: transform 0.3s ease-in-out;"
                          onmouseover="this.style.transform='scale(1.1)'" 
                          onmouseout="this.style.transform='scale(1)'">
