@@ -191,7 +191,7 @@ members:
                   <a href="{{ member.web_url }}" target="_blank">
                     <img src="{{ site.baseurl }}{{ member.photo_url }}" 
                          alt="{{ member.name }}" 
-                         style="width: 140px; height: 140px; 
+                         style="width: 100px; height: 100px; 
                                 object-fit: cover; 
                                 border-radius: 17%; 
                                 margin-bottom: 15px; 
