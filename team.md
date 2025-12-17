@@ -195,7 +195,7 @@ members:
                                 object-fit: cover; 
                                 border-radius: 17%; 
                                 margin-bottom: 15px; 
-                                border: 17px solid #f0f0f0;
+                                border: 3px solid #f0f0f0;
                                 transition: transform 0.3s ease-in-out;"
                          onmouseover="this.style.transform='scale(1.1)'" 
                          onmouseout="this.style.transform='scale(1)'">
