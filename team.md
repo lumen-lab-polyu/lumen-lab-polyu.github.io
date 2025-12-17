@@ -85,7 +85,7 @@ members:
   .table-container {
     display: flex;
     justify-content: center;
-    width: 100vw !important;
+    width: 80vw !important;
     position: relative;
     left: 50%;
     right: 50%;
