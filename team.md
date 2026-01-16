@@ -17,7 +17,7 @@ members:
       - full: true
         list:
           - name: Dr. Xiaofeng Zou
-            period: 2025/12-Present
+            period: 2025/12-
             photo_url: /assets/img/members/Xiaofeng_Zou.png
             web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
 
@@ -55,7 +55,7 @@ members:
       - full: true
         list:
           - name: Mr. Yihua Shao
-            period: 2025/01-; University of Trento
+            period: 2025/01-; PhD student@University of Trento
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
 
