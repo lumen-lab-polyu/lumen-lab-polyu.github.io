@@ -55,7 +55,7 @@ members:
       - full: true
         list:
           - name: Mr. Yihua Shao
-            period: 2025/01-; PhD student@University of Trento
+            period: 2025/01-; PhD Student at University of Trento
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
 
