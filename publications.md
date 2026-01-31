@@ -38,7 +38,7 @@ publications:
     tags: ["Capability"]
     img: "/assets/img/pubs/ICLR26_1.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
@@ -53,7 +53,7 @@ publications:
     tags: ["Capability"]
     img: "/assets/img/pubs/ICLR26_2.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
@@ -66,9 +66,9 @@ publications:
     year: 2026
     award: 
     tags: ["Data"]
-    img: "/assets/img/pubs/AAAA26_1.jpg"
+    img: "/assets/img/pubs/AAAA26_1.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
@@ -81,9 +81,9 @@ publications:
     year: 2026
     award: 
     tags: ["Capability"]
-    img: "/assets/img/pubs/AAAA26_2.jpg"
+    img: "/assets/img/pubs/AAAA26_2.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
@@ -96,9 +96,9 @@ publications:
     year: 2026
     award: 
     tags: ["APPs"]
-    img: "/assets/img/pubs/AAAA26_3.jpg"
+    img: "/assets/img/pubs/AAAA26_3.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height: # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
