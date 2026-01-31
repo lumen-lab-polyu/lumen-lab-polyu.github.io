@@ -60,13 +60,13 @@ publications:
     #    type: "arxiv"
 
   - title: "ICM-Fusion: In-Context Meta-Optimized LoRA Fusion for Multi-Task Adaptation"
-    authors: "Y. Shao,  X. Lin,  X. Long, …, J. Guo#"
+    authors: "Y. Shao, X. Lin, X. Long, ..., J. Guo#"
     corresponding_author: "J. Guo"
     venue: "AAAI Conference on Artificial Intelligence (AAAI), 2026."
     year: 2026
     award: 
     tags: ["Data"]
-    img: "/assets/img/pubs/AAAA26_1.png"
+    img: "/assets/img/pubs/AAAA26_1.jpg"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "160px" # 🔧 自定义图片高度
     links:
@@ -75,13 +75,13 @@ publications:
     #    type: "arxiv"
 
   - title: "TR-DQ: Time-Rotation Diffusion Quantization"
-    authors: "Y. Shao,  D. Lin,  M. Yan,  S. Chen,  F. Zeng,  M. Liao,  A. Ma,  Z. Yan,  H. Wang,  Y. Wang,  Z. Chen, X. Cao,  H. Qin,  H. Tang, J. Guo#"
+    authors: "Y. Shao, D. Lin, M. Yan, S. Chen, F. Zeng, M. Liao, A. Ma, Z. Yan, H. Wang, Y. Wang, Z. Chen, X. Cao, H. Qin, H. Tang, J. Guo#"
     corresponding_author: "J. Guo"
     venue: "AAAI Conference on Artificial Intelligence (AAAI), 2026."
     year: 2026
     award: 
     tags: ["Capability"]
-    img: "/assets/img/pubs/AAAA26_2.png"
+    img: "/assets/img/pubs/AAAA26_2.jpg"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "160px" # 🔧 自定义图片高度
     links:
@@ -96,7 +96,7 @@ publications:
     year: 2026
     award: 
     tags: ["APPs"]
-    img: "/assets/img/pubs/AAAA26_3.png"
+    img: "/assets/img/pubs/AAAA26_3.jpg"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: "160px" # 🔧 自定义图片高度
     links:
