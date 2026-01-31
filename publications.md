@@ -66,7 +66,7 @@ publications:
     year: 2026
     award: 
     tags: ["Data"]
-    img: "/assets/img/pubs/AAAA26_1.png"
+    img: "/assets/img/pubs/AAAI26_1.png"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height:  # 🔧 自定义图片高度
     links:
@@ -81,7 +81,7 @@ publications:
     year: 2026
     award: 
     tags: ["Capability"]
-    img: "/assets/img/pubs/AAAA26_2.png"
+    img: "/assets/img/pubs/AAAI26_2.png"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height:  # 🔧 自定义图片高度
     links:
@@ -96,7 +96,7 @@ publications:
     year: 2026
     award: 
     tags: ["APPs"]
-    img: "/assets/img/pubs/AAAA26_3.png"
+    img: "/assets/img/pubs/AAAI26_3.png"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: # 🔧 自定义图片高度
     links:
@@ -113,7 +113,7 @@ publications:
     tags: ["APPs"]
     img: "/assets/img/pubs/TCSVT26_1.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
@@ -122,37 +122,37 @@ publications:
   - title: "Balancing Cross-Modal Attention for Generalized Zero-Shot Learning"
     authors: "Z. Rao, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2025."
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2025."
     year: 2025
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/MM25-1.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:   # 🔧 对应的高度
     links:
 
   - title: "Topic Guided Multi-faceted Semantic Disentanglement for CTR Prediction"
     authors: "F. Li, Z. Yin, H. Liu, J. Guo#, J. He, Y. LI, C. Zhou, J. Zhang, H. Gu"
     corresponding_author: "J. Guo"
-    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2025."
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2025."
     year: 2025
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/MM25-2.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:   # 🔧 对应的高度
     links:
 
   - title: "GraphCL: Graph-based Clustering for Semi-Supervised Medical Image Segmentation"
     authors: "M. Wang, H. Su, J. Li, C. Li, N. Yin, L. Shen, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "International Conference on Machine Learning (ICML, CCF-A/Core-A*), 2025."
+    venue: "International Conference on Machine Learning (ICML), 2025."
     year: 2025
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/wang_2025_icml.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "100px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2411.13147"
@@ -161,38 +161,38 @@ publications:
   - title: "SVIP: Semantically Contextualized Visual Patches for Zero-Shot Learning"
     authors: "Z. Chen, Z. Zhao, J. Guo, J. Li, Z. Huang"
     corresponding_author:
-    venue: "IEEE/CVF International Conference on Computer Vision (ICCV, CCF-A/Core-A*), 2025."
+    venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/iccv-svip.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "120px" # 🔧 高度也相应增加
+    img_height: # 🔧 高度也相应增加
     links:
 
   - title: "A Unified Framework to BRIDGE Complete and Incomplete Deep Multi-View Clustering under Non-IID Missing Patterns"
     authors: "X. Jiang, B. He, P. Zhou, X. Chen, J. Guo, J. Xu, Y. Liao"
     corresponding_author:
-    venue: "IEEE/CVF International Conference on Computer Vision (ICCV, CCF-A/Core-A*), 2025."
+    venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/iccv-bridge.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "120px" # 🔧 高度也相应增加
+    img_height:  # 🔧 高度也相应增加
     links:
 
   
   - title: "TsCA: On the Semantic Consistency Alignment via Conditional Transport for Compositional Zero-Shot Learning"
     authors: "M. Li, J. Guo#, Y. Xu, D. Wang, X. Cao, Z. Rao, S. Guo"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2025."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/li_2025_ijcai.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "100px" # 🔧 自定义图片高度
+    img_height: # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2408.08703"
@@ -202,13 +202,13 @@ publications:
   - title: "Exploring Transferable Homogenous Groups for Compositional Zero-Shot Learning"
     authors: "Z. Rao, J. Guo#, M. Li, Y. Chen, M. Wang"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2025."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/rao_2025_ijcai.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "100px" # 🔧 自定义图片高度
+    img_height: # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2501.10695"
@@ -217,13 +217,13 @@ publications:
   - title: "On the Discrimination and Consistency for Exemplar-Free Class Incremental Learning"
     authors: "T. Wang, J. Guo#, D. Li, Z. Chen"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2025."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/wang_2025_ijcai.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "100px" # 🔧 自定义图片高度
+    img_height: # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2501.15454"
@@ -232,13 +232,13 @@ publications:
   - title: "FedAPA: Server-side Gradient-Based Adaptive Personalized Aggregation for Federated Learning on Heterogeneous Data"
     authors: "Y. Sun, A. Sun, S. Pan, Z. Fu, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2025."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2025."
     year: 2025
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/sun_2025_ijcai.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "160px" # 🔧 自定义图片高度
+    img_height:  # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
@@ -248,13 +248,13 @@ publications:
   - title: "In Context Meta LoRA Generation"
     authors: "Y. Shao, M. Yan, Y. Liu, S. Chen, W. Chen, X. Long, Z. Yan, L. Li, C. Zhang, N. Sebe, H. Tang, Y. Wang, H. Zhao, M. Wang, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2025."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2025."
     year: 2025
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/shao_2025_ijcai.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "100px" # 🔧 自定义图片高度
+    img_height: # 🔧 自定义图片高度
     links:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2501.17635"
@@ -263,25 +263,25 @@ publications:
   - title: "ESBN: Estimation Shift of Batch Normalization for Source-free Universal Domain Adaptation"
     authors: "J. Li, H. Su, B. Wang, Y. Min, M. Wang, N. Yin, S. Wang, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2025."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2025."
     year: 2025
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/null.png"
     img_width: "200px"  # 🔧 自定义图片宽度
-    img_height: "100px" # 🔧 自定义图片高度
+    img_height: # 🔧 自定义图片高度
     links:
 
   - title: "Neuron: Learning Context-Aware Evolving Representations for Zero-Shot Skeleton Action Recognition"
     authors: "Y. Chen, J. Guo#, S. Guo"
     corresponding_author: "J. Guo"
-    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A/Core-A*), 2025."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/chen_2025_cvpr.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "100px" # 🔧 高度也相应增加
+    img_height: # 🔧 高度也相应增加
     links:
       # - name: "Paper"
       #   url: ""
@@ -296,13 +296,13 @@ publications:
   - title: "Epsilon: Exploring Comprehensive Visual-Semantic Projection for Multi-Label Zero-Shot Learning"
     authors: "Z. Liu, J. Guo#, S. Guo, X. Lu"
     corresponding_author: "J. Guo"
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2025."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/liu_2025_aaai.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "120px" # 🔧 高度也相应增加
+    img_height:  # 🔧 高度也相应增加
     links:
    #   - name: "Paper"
    #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/34098"
@@ -315,13 +315,13 @@ publications:
   - title: "Concept Matching with Agent for Out-of-Distribution Detection"
     authors: "Y, Lee, X. Cao, J. Guo, W. Ye, Q. Guo, Y. Chang"
     corresponding_author:
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2025."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2025."
     year: 2025
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/lee_2025_aaai.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "120px" # 🔧 高度也相应增加
+    img_height: # 🔧 高度也相应增加
     links:
     #  - name: "Paper"
     #    url: "https://ojs.aaai.org/index.php/AAAI/article/view/32481"
@@ -336,13 +336,13 @@ publications:
   - title: "DeNC: Unleash Neural Codecs in Video Streaming with Diffusion Enhancement"
     authors: "Q. Zhou, R. Li, J. Guo, Y. Huang, Z. Xu, L. Cui, S. Guo"
     corresponding_author:
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2025."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2025."
     year: 2025
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/zhou_2025_aaai.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "100px" # 🔧 高度也相应增加
+    img_height:  # 🔧 高度也相应增加
     links:
     #  - name: "Paper"
     #    url: "https://ojs.aaai.org/index.php/AAAI/article/view/32107"
@@ -357,13 +357,13 @@ publications:
   - title: "SRCD: Semantic Reasoning with Compound Domains for Single-Domain Generalized Object Detection"
     authors: "Z. Rao, J. Guo#, L. Tang, Y. Huang, X. Ding, S. Guo"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS, IF=14.255/JCR-Q1), 2025."
+    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2025."
     year: 2025
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/rao_2025_tnnls.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "120px" # 🔧 高度也相应增加
+    img_height:  # 🔧 高度也相应增加
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/10742956"
@@ -378,13 +378,13 @@ publications:
   - title: "A Paradigm of Temporal-Weather-Aware Transition Pattern for POI Recommendation"
     authors: "J. Chen, J. Guo#, H. Wang, Z. Lai, Q. Zhang, K. Wu, L. Zhang"
     corresponding_author: "J. Guo"
-    venue: "CAAI Transactions on Intelligence Technology (TIT, IF=8.4/JCR-Q1), 2025."
+    venue: "CAAI Transactions on Intelligence Technology (TIT), 2025."
     year: 2025
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/null.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "100px" # 🔧 高度也相应增加
+    img_height: # 🔧 高度也相应增加
     links:
       # - name: "Paper"
       #   url: "https://ieeexplore.ieee.org/document/10742956"
@@ -399,13 +399,13 @@ publications:
   - title: "A Multi-Modal Adversarial Method for Personalized Recommendation under Uncertain Missing Modalities"
     authors: "J. Chen, J. Guo#, H. Wang, Z. Lai, Q. Zhang, K. Wu, L. Zhang"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Services Computing (TSC, IF=5.5/JCR-Q1), 2025."
+    venue: "IEEE Transactions on Services Computing (TSC), 2025."
     year: 2025
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/chen_2025_tsc.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
-    img_height: "120px" # 🔧 高度也相应增加
+    img_height:  # 🔧 高度也相应增加
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/document/10946219"
@@ -421,13 +421,13 @@ publications:
   - title: "ParsNets: A Parsimonious Composition of Orthogonal and Low-Rank Linear Networks for Zero-Shot Learning"
     authors: "J. Guo#, Q. Zhou, X. Lu, R. Li, Z. Liu, J. Zhang, B. Han, J. Chen, X. Xie, S. Guo"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2024"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
     year: 2024
     award: "long oral, acceptance rate ~= 2.3% (128/5651)."
     tags: ["Data"]
     img: "/assets/img/pubs/guo_2024_ijcai.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:   # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://www.ijcai.org/proceedings/2024/449"
@@ -439,13 +439,13 @@ publications:
   - title: "Dual Expert Distillation Network for Generalized Zero-Shot Learning"
     authors: "Z. Rao, J. Guo#, X. Lu, J. Liang, J. Zhang, H. Wang, K. Wei, X. Cao"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2024"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
     year: 2024
     award: "long oral, acceptance rate ~= 2.3% (128/5651)."
     tags: ["Data"]
     img: "/assets/img/pubs/rao_2024_ijcai.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://www.ijcai.org/proceedings/2024/534"
@@ -461,13 +461,13 @@ publications:
   - title: "Fine-Grained Side Information Guided Dual-Prompts for Zero-Shot Skeleton Action Recognition"
     authors: "Y. Chen, J. Guo#, T. He, X. Lu, L. Wang"
     corresponding_author: "J. Guo"
-    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2024."
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2024."
     year: 2024
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/chen_2024_mm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://dl.acm.org/doi/10.1145/3664647.3681196"
@@ -482,13 +482,13 @@ publications:
   - title: "SFP: Spurious Feature-Targeted Pruning for Out-of-Distribution Generalization"
     authors: "Y. Wang, J. Guo#, S. Guo, Y. Liu, J. Zhang, W. Zhang"
     corresponding_author: "J. Guo"
-    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2024."
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/wang_2024_mm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://dl.acm.org/doi/10.1145/3664647.3680969"
@@ -503,13 +503,13 @@ publications:
   - title: "FreePIH: Training-Free Painterly Image Harmonization with Diffusion Model"
     authors: "R. Li, J. Guo#, Q. Zhou, S. Guo"
     corresponding_author: "J. Guo"
-    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2024."
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2024."
     year: 2024
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/li_2024_mm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://dl.acm.org/doi/10.1145/3664647.3680780"
@@ -522,13 +522,13 @@ publications:
   - title: "Causally Motivated Personalized Federated Invariant Learning with Shortcut-Averse Information-Theoretic Regularization"
     authors: "X. Tang, S. Guo, J. Guo#, J. Zhang, Y. Yu"
     corresponding_author: "J. Guo"
-    venue: "International Conference on Machine Learning (ICML, CCF-A/Core-A*), 2024."
+    venue: "International Conference on Machine Learning (ICML), 2024."
     year: 2024
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/tang_2024_icml.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://icml.cc/virtual/2024/poster/34335"
@@ -537,13 +537,13 @@ publications:
   - title: "Geometry Awakening: Cross-Geometry Learning Exhibits Superiority over Individual Structures"
     authors: "Y. Sun, X. Cao, Y. Wang, W. Ye, J. Guo, Q. Guo"
     corresponding_author:
-    venue: "Annual Conference on Neural Information Processing Systems (NeurIPS, CCF-A/Core-A*), 2024."
+    venue: "Annual Conference on Neural Information Processing Systems (NeurIPS), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/sun_2024_neurips.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d1b7d6244356456476231f6bece2c046-Abstract-Conference.html"
@@ -552,13 +552,13 @@ publications:
   - title: "CGraphNet: Contrastive Graph Context Prediction for Sparse Unlabeled Short Text Representation Learning on Social Media"
     authors: "J. Chen, J. Guo#, X. Li, H. Wang, Z. Xu, Z. Gong, L. Zhang, VCM. Leung"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Computational Social Systems (TCSS, IF=5.0/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Computational Social Systems (TCSS), 2024."
     year: 2024
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/chen_2024_tcss.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/abstract/document/10702341"
@@ -567,13 +567,13 @@ publications:
   - title: " A Review of Few-shot and Zero-shot Learning for Node Classification in Social Networks"
     authors: "J. Chen, R. Mi, H. Wang, H. Wu, J. Mo, J. Guo, Z. Lai, L. Zhang, VCM. Leung"
     corresponding_author:
-    venue: "IEEE Transactions on Computational Social Systems (TCSS, IF=5.0/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Computational Social Systems (TCSS), 2024."
     year: 2024
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/chen_2024_tcss2.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/document/10701609"
@@ -582,13 +582,13 @@ publications:
   - title: "Vision-Language Meets the Skeleton: Progressively Distillation with Cross-Modal Knowledge for 3D Action Representation"
     authors: "Y. Chen, T. He, J. Fu, L. Wang, J. Guo, H. Cheng"
     corresponding_author:
-    venue: "IEEE Transactions on Multimedia (TMM, IF=8.4/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Multimedia (TMM), 2024."
     year: 2024
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/chen_2024_tmm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "200px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/abstract/document/10812782"
@@ -603,13 +603,13 @@ publications:
   - title: "Model Decomposition and Reassembly for Purified Knowledge Transfer in Personalized Federated Learning"
     authors: "J. Zhang, S. Guo, X. Ma, W. Xu, Q. Zhou, J. Guo, Z. Hong, J. Shan"
     corresponding_author:
-    venue: "IEEE Transactions on Mobile Computing (TMC, IF=7.7/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Mobile Computing (TMC), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/zhang_2024_tmc.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/document/10689471"
@@ -618,13 +618,13 @@ publications:
   - title: "Personalized Federated Domain-Incremental Learning Based on Adaptive Knowledge Matching"
     authors: "Y. Li, W. Xu, H. Wang, R. Li, Y. Qi, J. Guo"
     corresponding_author:
-    venue: "European Conference on Computer Vision (ECCV, CCF-B/Core-A*), 2024."
+    venue: "European Conference on Computer Vision (ECCV), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/li_2024_eccv.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://link.springer.com/chapter/10.1007/978-3-031-72952-2_8"
@@ -636,13 +636,13 @@ publications:
   - title: "Multi-modal Dual-embedding Networks for Malware Open-set Recognition"
     authors: "J. Guo, H. Wang, Y. Xu, W. Xu, Y. Zhan, Y. Sun, S. Guo"
     corresponding_author:
-    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS, IF=14.255/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2024."
     year: 2024
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/guo_2024_tnnls.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/10477023"
@@ -654,13 +654,13 @@ publications:
   - title: "Data Quality-aware Mixed-precision Quantization via Hybrid Reinforcement Learning"
     authors: "Y. Wang, S. Guo, J. Guo#, Y. Zhang, W. Zhang, Q. Zheng, J. Zhang"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS, IF=14.255/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/wang_2024_tnnls.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:   # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/abstract/document/10566890"
@@ -672,13 +672,13 @@ publications:
   - title: "Unveiling User Interests: A Deep User Interest Exploration Network for Sequential Location Recommendation"
     authors: "J. Chen, J. Guo, Q. Zhang, K. Wu, L. Zhang, VCM. Leung, H. Wang, Z. Gong"
     corresponding_author:
-    venue: "Information Sciences (INS, IF=8.1/JCR-Q1), 2024."
+    venue: "Information Sciences (INS), 2024."
     year: 2024
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/chen_2024_ins.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://www.sciencedirect.com/science/article/pii/S0020025524013306"
@@ -687,13 +687,13 @@ publications:
   - title: "On the Robustness of Neural-enhanced Video Streaming Against Adversarial Attacks"
     authors: "Q. Zhou, J. Guo#, S. Guo, R. Li, J. Zhang, B. Wang, Z. Xu"
     corresponding_author: "J. Guo"
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2024."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2024."
     year: 2024
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/zhou_2024_aaai.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29657"
@@ -702,13 +702,13 @@ publications:
   - title: "ProCC: Progressive Cross-primitive Compatibility for Open-World Compositional Zero-Shot Learning"
     authors: "F. Huo, W. Xu, S. Guo, J. Guo#, H. Wang, Z. Liu, X. Lu"
     corresponding_author: "J. Guo"
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2024."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2024."
     year: 2024
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/huo_2024_aaai.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "150px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29164"
@@ -720,13 +720,13 @@ publications:
   - title: "Non-Exemplar Online Class-incremental Continual Learning via Dual-prototype Self-augment and Refinement"
     authors: "F. Huo, W. Xu, J. Guo, H. Wang, Y. Fan"
     corresponding_author:
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2024."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2024."
     year: 2024
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/huo_2024_aaai2.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "150px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29165"
@@ -738,13 +738,13 @@ publications:
   - title: "PASS: Patch Automatic Skip Scheme for Efficient On-device Video Perception"
     authors: "Q. Zhou, S. Guo, J. Pan, J. Liang, J. Guo#, Z. Xu, J. Zhou"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, IF=24.314/JCR-Q1), 2024."
+    venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/zhou_2024_tpami.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/10381763"
@@ -753,13 +753,13 @@ publications:
   - title: "Learning Personalized Causally Invariant Representations for Heterogeneous Federated Clients"
     authors: "X. Tang, S. Guo, J. Zhang, J. Guo"
     corresponding_author:
-    venue: "International Conference on Learning Representations (ICLR, CCF-A/Core-A*), 2024."
+    venue: "International Conference on Learning Representations (ICLR), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/tang_2024_iclr.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://iclr.cc/virtual/2024/poster/19333"
@@ -768,13 +768,13 @@ publications:
   - title: "DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning"
     authors: "S. Bai, J. Zhang, S. Guo, S. Li, J. Guo, J. Hou, T. Han, X. Lu"
     corresponding_author:
-    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A/Core-A*), 2024."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024."
     year: 2024
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/bai_2024_cvpr.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_DiPrompT_Disentangled_Prompt_Tuning_for_Multiple_Latent_Domain_Generalization_in_CVPR_2024_paper.html"
@@ -787,13 +787,13 @@ publications:
   - title: "C2KD: Bridging the Modality Gap for Cross-Modal Knowledge Distillation,"
     authors: "F. Huo, W. Xu, J. Guo, H. Wang, Song Guo"
     corresponding_author:
-    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A/Core-A*), 2024."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024."
     year: 2024
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/huo_2024_cvpr.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "140px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://openaccess.thecvf.com/content/CVPR2024/html/Huo_C2KD_Bridging_the_Modality_Gap_for_Cross-Modal_Knowledge_Distillation_CVPR_2024_paper.html"
@@ -802,13 +802,13 @@ publications:
   - title: "Graph Knows Unknowns: Reformulate Zero-Shot Learning as Sample-Level Graph Recognition"
     authors: "J. Guo, S. Guo, Q. Zhou, Z. Liu, X. Lu, F. Huo"
     corresponding_author:
-    venue: "AAAI Conference on Artificial Intelligence (AAAI, CCF-A/Core-A*), 2023."
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2023."
     year: 2023
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/guo_2023_aaai.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "180px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ojs.aaai.org/index.php/AAAI/article/view/25942"
@@ -817,13 +817,13 @@ publications:
   - title: "(ML)2P-Encoder: On Exploration of Channel-Class Correlation for Multi-Label Zero-Shot Learning"
     authors: "Z. Liu, S. Guo, X. Lu, J. Guo#, J. Zhang, Y. Zeng, F. Huo"
     corresponding_author: "J. Guo"
-    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A/Core-A*), 2023."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023."
     year: 2023
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/liu_2023_cvpr.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://openaccess.thecvf.com/content/CVPR2023/html/Liu_ML2P-Encoder_On_Exploration_of_Channel-Class_Correlation_for_Multi-Label_Zero-Shot_Learning_CVPR_2023_paper.html"
@@ -835,13 +835,13 @@ publications:
   - title: "Decomposed Soft Prompt Guided Fusion Enhancing for Compositional Zero-Shot Learning"
     authors: "X. Lu, S. Guo, Z. Liu, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, CCF-A/Core-A*), 2023."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023."
     year: 2023
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/lu_2023_cvpr.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://openaccess.thecvf.com/content/CVPR2023/html/Lu_Decomposed_Soft_Prompt_Guided_Fusion_Enhancing_for_Compositional_Zero-Shot_Learning_CVPR_2023_paper.html"
@@ -858,13 +858,13 @@ publications:
   - title: "Towards Data-Independent Knowledge Transfer in Model-Heterogeneous Federated Learning"
     authors: "J. Zhang, S. Guo, J. Guo#, D. Zeng, J. Zhou, A. Zomaya"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Computers (TC, CCF-A), 2023."
+    venue: "IEEE Transactions on Computers (TC), 2023."
     year: 2023
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/zhang_2023_tc.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/document/10115052"
@@ -873,13 +873,13 @@ publications:
   - title: "UTDNet: A Unified Triplet Decoder Network for Multimodal Salient Object Detection"
     authors: "F. Huo, Z. Liu, J. Guo#, W. Xu, S. Guo"
     corresponding_author: "J. Guo"
-    venue: "Neural Networks (NN, IF=9.657/JCR-Q1), 2023."
+    venue: "Neural Networks (NN), 2023."
     year: 2023
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/huo_2023_nn.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://www.sciencedirect.com/science/article/pii/S0893608023006755"
@@ -888,13 +888,13 @@ publications:
   - title: "Towards performance-maximizing neural network pruning via global channel attention"
     authors: "Y. Wang, S. Guo, J. Guo, J. Zhang, W. Zhang, C. Yan, Y. Zhang"
     corresponding_author:
-    venue: "Neural Networks (NN, IF=9.657/JCR-Q1), 2023."
+    venue: "Neural Networks (NN), 2023."
     year: 2023
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/wang_2023_nn.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://www.sciencedirect.com/science/article/pii/S0893608023006937"
@@ -903,13 +903,13 @@ publications:
   - title: "Hwamei: A Learning-Based Synchronization Scheme for Hierarchical Federated Learning"
     authors: "T. Qi, Y. Zhan, P. Li, J. Guo, Y. Xia"
     corresponding_author:
-    venue: "IEEE International Conference on Distributed Computing Systems (ICDCS, CCF-B/Core-A), 2023."
+    venue: "IEEE International Conference on Distributed Computing Systems (ICDCS), 2023."
     year: 2023
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/qi_2023_icdcs.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "200px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/10272466"
@@ -918,13 +918,13 @@ publications:
   - title: "Towards Fairer and More Efficient Federated Learning via Multidimensional Personalized Edge Models"
     authors: "Y. Wang, J. Guo, J. Zhang, S. Guo, W. Zhang, Q. Zheng"
     corresponding_author:
-    venue: "International Joint Conference on Neural Networks (IJCNN, Core-B), 2023."
+    venue: "International Joint Conference on Neural Networks (IJCNN), 2023."
     year: 2023
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/wang_2023_ijcnn.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/abstract/document/10191956"
@@ -937,13 +937,13 @@ publications:
   - title: "Personalized Federated Learning with Contextualized Generalization"
     authors: "X. Tang, S. Guo, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI, CCF-A/Core-A*), 2022."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2022."
     year: 2022
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/tang_2022_ijcai.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://www.ijcai.org/proceedings/2022/311"
@@ -955,13 +955,13 @@ publications:
   - title: "Towards Unbiased Multi-Label Zero-Shot Learning with Pyramid and Semantic Attention"
     authors: "Z. Liu, S. Guo, J. Guo#, Y. Xu, F. Huo"
     corresponding_author: "J. Guo"
-    venue: "IEEE Transactions on Multimedia (TMM, IF=8.4/JCR-Q1), 2022."
+    venue: "IEEE Transactions on Multimedia (TMM), 2022."
     year: 2022
     award: 
     tags: ["Data"]
     img: "/assets/img/pubs/liu_2022_tmm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/abstract/document/9953574"
@@ -973,13 +973,13 @@ publications:
   - title: "Conservative Novelty Synthesizing Network for Malware Recognition in an Open-Set Scenario"
     authors: "J. Guo, S. Guo, S. Ma, Y. Sun, Y. Xu"
     corresponding_author:
-    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS, IF=14.255/JCR-Q1), 2021."
+    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2021."
     year: 2021
     award: Outstanding Paper Award of GDCA
     tags: ["APPs"]
     img: "/assets/img/pubs/guo_2021_tnnls.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/9503108"
@@ -988,13 +988,13 @@ publications:
   - title: "INT8 Training with Loss-Aware Compensation and Backward Quantization for Tiny On-Device Learning"
     authors: "Q. Zhou, S. Guo, Z. Qu, J. Guo, Z. Xu, J. Zhang, T. Guo, B. Luo, J. Zhou"
     corresponding_author:
-    venue: "USENIX Annual Technical Conference (USENIX-ATC, CCF-A/Core-A*), 2021."
+    venue: "USENIX Annual Technical Conference (USENIX-ATC), 2021."
     year: 2021
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/zhou_2021_usenixatc.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://www.usenix.org/conference/atc21/presentation/zhou-qihua"
@@ -1003,13 +1003,13 @@ publications:
   - title: "On-Device Learning Systems for Edge Intelligence: A Software and Hardware Synergy Perspective"
     authors: "Q. Zhou, Z. Qu, S. Guo, B. Luo, J. Guo, Z. Xu, R. Akerkar"
     corresponding_author:
-    venue: "IEEE Internet of Things Journal (IoT-J, IF=10.6/JCR-Q1), 2021."
+    venue: "IEEE Internet of Things Journal (IoT-J), 2021."
     year: 2021
     award:
     tags: ["Capability"]
     img: "/assets/img/pubs/zhou_2021_iotj.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "200px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/9366901"
@@ -1018,13 +1018,13 @@ publications:
   - title: "Dual-View Attention Networks for Single Image Super-Resolution"
     authors: "J. Guo, S. Ma, J. Zhang, Q. Zhou, S. Guo"
     corresponding_author:
-    venue: "ACM International Conference on Multimedia (ACM-MM, CCF-A/Core-A*), 2020."
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2020."
     year: 2020
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/guo_2020_mm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://dl.acm.org/doi/10.1145/3394171.3413613"
@@ -1033,13 +1033,13 @@ publications:
   - title: "A Novel Perspective to Zero-Shot Learning: Towards an Alignment of Manifold Structures via Semantic Feature Expansion"
     authors: "J. Guo, S. Guo"
     corresponding_author:
-    venue: "IEEE Transactions on Multimedia (TMM, IF=8.4/JCR-Q1), 2020."
+    venue: "IEEE Transactions on Multimedia (TMM), 2020."
     year: 2020
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/guo_2020_tmm.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "200px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/9055169"
@@ -1048,13 +1048,13 @@ publications:
   - title: "Adaptive Adjustment with Semantic Feature Space for Zero-Shot Recognition"
     authors: "J. Guo, S. Guo"
     corresponding_author:
-    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B/Core-B), 2019."
+    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2019."
     year: 2019
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/guo_2019_icassp.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "120px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/document/8682869"
@@ -1063,13 +1063,13 @@ publications:
   - title: "EE-AE: An Exclusivity Enhanced Unsupervised Feature Learning Approach"
     authors: "J. Guo, S. Guo"
     corresponding_author:
-    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B/Core-B), 2019."
+    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2019."
     year: 2019
     award:
     tags: ["APPs"]
     img: "/assets/img/pubs/guo_2019_icassp2.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "100px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/abstract/document/8682891"
@@ -1078,13 +1078,13 @@ publications:
   - title: "AMS-SFE: Towards an Alignment of Manifold Structures via Semantic Feature Expansion for Zero-Shot Learning"
     authors: "J. Guo, S. Guo"
     corresponding_author:
-    venue: "IEEE International Conference on Multimedia and Expo (ICME, CCF-B/Core-A), 2019."
+    venue: "IEEE International Conference on Multimedia and Expo (ICME), 2019."
     year: 2019
     award:
     tags: ["Data"]
     img: "/assets/img/pubs/guo_2019_icme.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
     #  - name: "Paper"
     #    url: "https://ieeexplore.ieee.org/abstract/document/8784887"
@@ -1099,7 +1099,7 @@ publications:
     tags: ["Data"]
     img: "/assets/img/pubs/guo_2016_bdcat.png"
     img_width: "200px"  # 🔧 这个论文的图片小一些
-    img_height: "160px"  # 🔧 对应的高度
+    img_height:  # 🔧 对应的高度
     links:
    #   - name: "Paper"
    #     url: "https://ieeexplore.ieee.org/document/7877062"
