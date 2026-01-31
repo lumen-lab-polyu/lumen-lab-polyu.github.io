@@ -29,6 +29,96 @@ publications:
   #       url: "bibtex-url"
   #       type: "bibtex"
 
+  - title: "D&R: Recovery-based AI-Generated Text Detection via a Single Black-box LLM Call"
+    authors: "Y. Sun, R. Zhang, A. Sun, X. Li, Z. Liu, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "International Conference on Learning Representations (ICLR), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/ICLR26_1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height: "160px" # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Nüwa: Mending the Spatial Integrity Torn by VLM Token Pruning"
+    authors: "Y. Huang, F. Ma, Y. Shao, J. Guo, Z. Yu, L. Cui, Q. Tian"
+    corresponding_author:
+    venue: "International Conference on Learning Representations (ICLR), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/ICLR26_2.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height: "160px" # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "ICM-Fusion: In-Context Meta-Optimized LoRA Fusion for Multi-Task Adaptation"
+    authors: "Y. Shao,  X. Lin,  X. Long, …, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/AAAA26_1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height: "160px" # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "TR-DQ: Time-Rotation Diffusion Quantization"
+    authors: "Y. Shao,  D. Lin,  M. Yan,  S. Chen,  F. Zeng,  M. Liao,  A. Ma,  Z. Yan,  H. Wang,  Y. Wang,  Z. Chen, X. Cao,  H. Qin,  H. Tang, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/AAAA26_2.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height: "160px" # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Learning to Cluster Rare Cell Types: Implicit Semantic Data Augmentation for Spatial Multi-modal Omics Analysis"
+    authors: "D. Liu, H. So, H. Chen, J. Li, S. Wang, M. Wang, J. Guo"
+    corresponding_author:
+    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/AAAA26_3.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height: "160px" # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "STAR++: Region-aware Conditional Semantics via Interpretable Side Information for Zero-Shot Skeleton Action Recognition"
+    authors: "Y. Chen, J. Guo#, M. Li, Z. Rao, S. Guo"
+    corresponding_author: "J. Guo"
+    venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/TCSVT26_1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height: "160px" # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
   - title: "Balancing Cross-Modal Attention for Generalized Zero-Shot Learning"
     authors: "Z. Rao, J. Guo#"
     corresponding_author: "J. Guo"
