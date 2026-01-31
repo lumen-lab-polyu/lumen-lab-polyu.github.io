@@ -267,7 +267,7 @@ publications:
     year: 2025
     award: 
     tags: ["Capability"]
-    img: "/assets/img/pubs/null.png"
+    img: "/assets/img/pubs/ESBN.png"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height: # 🔧 自定义图片高度
     links:
@@ -382,7 +382,7 @@ publications:
     year: 2025
     award: 
     tags: ["APPs"]
-    img: "/assets/img/pubs/null.png"
+    img: "/assets/img/pubs/TIT.png"
     img_width: "200px"  # 🔧 这个论文的图片稍微大一些
     img_height: # 🔧 高度也相应增加
     links:
