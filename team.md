@@ -12,41 +12,36 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
-  - name: Postdoctoral Researchers
+  - name: Postdocs/PhD Students
     list:
       - full: true
         list:
           - name: Dr. Xiaofeng Zou
-            period: 2025/12
+            period: 2025/12 (Postdoc)
             photo_url: /assets/img/members/Xiaofeng_Zou.png
             web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
-
-  - name: Ph.D. Students
-    list:
-      - full: true
-        list:
           - name: Mr. Zhijie Rao
-            period: 2024/05
+            period: 2024/05 (PhD Student)
             photo_url: /assets/img/members/Zhijie_Rao.png
             web_url: https://zjrao.github.io/
           - name: Ms. Miaoge Li
-            period: 2024/05
+            period: 2024/05 (PhD Student)
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
           - name: Mr. Yang Chen
-            period: 2024/09
+            period: 2024/09 (PhD Student)
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
           - name: Mr. Tianqi Wang
-            period: 2026/05
+            period: 2026/05 (PhD Student)
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
           - name: Mr. Xiaorui Jiang
-            period: 2026/09
+            period: 2026/09 (PhD Student)
             photo_url: /assets/img/members/Xiaorui_Jiang.jpg
             web_url: https://xiaorui-jiang.github.io/
           - name: Mr. Mingfeng Zha
-            period: 2026/09
+            period: 2026/09 (PhD Student)
             photo_url: /assets/img/members/Mingfeng_Zha.jpg
             web_url: https://winter-flow.github.io/
             
