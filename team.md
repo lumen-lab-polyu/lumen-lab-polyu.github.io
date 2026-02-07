@@ -121,7 +121,7 @@ members:
 
   /* 成员名字样式 */
   .member-name {
-    font-size: 2.1rem !important; /* 增大字体 */
+    font-size: 1.5rem !important; /* 增大字体 */
     font-weight: 600 !important;
     color: #007bff !important; /* 蓝色 */
     margin-bottom: 8px !important;
