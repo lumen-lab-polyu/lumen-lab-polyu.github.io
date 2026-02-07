@@ -106,10 +106,10 @@ members:
   }
 
   /* 调整头像成员之间的距离 */
-  .row.justify-content-center {
+  /* .row.justify-content-center {
     margin-left: -200px !important;
     margin-right: -200px !important;
-  }
+  } */
   
   .row.justify-content-center .col-lg-3,
   .row.justify-content-center .col-md-4,
