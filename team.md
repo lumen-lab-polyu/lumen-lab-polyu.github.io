@@ -18,6 +18,7 @@ members:
         list:
           - name: Dr. Xiaofeng Zou
             period: 2025/12 (Postdoc)
+            affiliation: tbd
             photo_url: /assets/img/members/Xiaofeng_Zou.png
             web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
           - name: Mr. Zhijie Rao
