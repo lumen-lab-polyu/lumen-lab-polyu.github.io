@@ -18,7 +18,7 @@ members:
         list:
           - name: Dr. Xiaofeng Zou
             period: 2025/12
-            affiliation: Postdoctoral <span class="special-text">Researcher</span> 
+            affiliation: Postdoctoral Researcher
             photo_url: /assets/img/members/Xiaofeng_Zou.png
             web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
           - name: Mr. Zhijie Rao
@@ -149,24 +149,25 @@ members:
   /* Period信息样式 */
   .member-period {
     font-size: 1.3rem !important;
-    color: #666 !important;
+    color: #708090 !important;
     font-style: italic !important;
     margin-top: 5px !important;
     margin-bottom: 0 !important;
   }
 
   .member-affiliation {
-    font-size: 1.3rem !important;
-    color: #666 !important;
+    font-size: 1.4rem !important;
+    color: #708090 !important;
     font-style: italic !important;
     margin-top: 5px !important;
     /* margin-bottom: 0 !important; */
   }
 
-  .special-text {
+  .special-text-red {
   color: #ff0000;
   font-weight: bold;
   }
+  /* <span class="special-text-red">Researcher</span>  */
 
 </style>
 
