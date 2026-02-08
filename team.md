@@ -122,8 +122,8 @@ members:
   .row.justify-content-center .col-lg-3,
   .row.justify-content-center .col-md-4,
   .row.justify-content-center .col-sm-6 {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-left: 90px !important;
+    padding-right: 90px !important;
     margin-bottom: 40px !important;
   }
 
