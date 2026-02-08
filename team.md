@@ -158,7 +158,7 @@ members:
   .member-affiliation {
     font-size: 1.4rem !important;
     color: #708090 !important;
-    font-style: italic !important;
+    font-style: normal !important;
     margin-top: 5px !important;
     /* margin-bottom: 0 !important; */
   }
