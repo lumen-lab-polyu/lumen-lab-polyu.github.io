@@ -24,7 +24,7 @@ members:
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
-            photo_url: /assets/img/members/Zhijie_Rao.png
+            photo_url: /assets/img/members/Zhijie_Rao1.jpg
             web_url: https://zjrao.github.io/
           - name: Ms. Miaoge Li
             period: 2024/05
@@ -44,7 +44,7 @@ members:
           - name: Mr. Xiaorui Jiang
             period: 2026/09
             affiliation: PhD Student
-            photo_url: /assets/img/members/Xiaorui_Jiang.jpg
+            photo_url: /assets/img/members/Xiaorui_Jiang1.jpg
             web_url: https://xiaorui-jiang.github.io/
           - name: Mr. Mingfeng Zha
             period: 2026/09
