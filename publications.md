@@ -29,6 +29,96 @@ publications:
   #       url: "bibtex-url"
   #       type: "bibtex"
 
+  - title: "SG-LoRA: Semantic-guided LoRA Parameters Generation"
+    authors: "M. Li, Y. Chen, Z. Rao, C. Jiang, K. Wei, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/cvpr1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "STiTch: Semantic Transition and Transportation in Collaboration for Training-Free Zero-Shot Composed Image Retrieval"
+    authors: "M. Li, D. Wang, Z. Sun, J. Zhang, W. Luo, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/cvpr2.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "FlowSteer: Guiding Few-Step Image Synthesis with Authentic Trajectories"
+    authors: "L. Ke, H. Yin, G. Liu, Z. Lv, J. Guo, C. Li, W. Luo, Y. Yang"
+    corresponding_author:
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/cvpr3.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Learning by Neighbor-Aware Semantics, Deciding by Open-form Flows: Towards Robust Zero-Shot Skeleton Action Recognition"
+    authors: "Y. Chen, M. Li, Z. Rao, D. Zeng, S. Guo, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "Findings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    year: 2026
+    award: 
+    tags: ["APPs"]
+    img: "/assets/img/pubs/cvpr-finding1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection"
+    authors: "W. Wang, J. Guo, Y. Cai, Z. Chen"
+    corresponding_author:
+    venue: "Findings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/cvpr-finding2.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "UNICON: A Unified Reconfigurable Nonlinear Architecture for Efficient Neural Network Inference"
+    authors: "X. Zou, C. Chen, Q. Wang, Z. Liu, H. Zhuang, J. Guo"
+    corresponding_author:
+    venue: "Design Automation Conference (DAC), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/dac.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+    
   - title: "D&R: Recovery-based AI-Generated Text Detection via a Single Black-box LLM Call"
     authors: "Y. Sun, R. Zhang, A. Sun, X. Li, Z. Liu, J. Guo#"
     corresponding_author: "J. Guo"
