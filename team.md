@@ -69,7 +69,7 @@ members:
             web_url: https://tianqi-wang1.github.io/
             position_at_lab: Research Assistant
             next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
-          - name: Fengxin Li (2025)
+          - name: Fengxin Li (2025-25)
             web_url: https://scholar.google.jp/citations?user=4-l_XoAAAAAJ&hl=en
             position_at_lab: Visiting Ph.D. Student
             next_stop: (Return to) Renmin University of China
