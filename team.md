@@ -173,13 +173,13 @@ members:
             <table class="table table-borderless centered-table"> 
               <thead>
                 <tr>
-                  <th style="width: 20%;">Name</th>
+                  <th style="width: 25%;">Name</th>
                   {% if member_group.name != "Alumni" %}
-                    <th style="width: 15%;">Period</th>
-                    <th style="width: 20%;">Last Stop</th>
+                    <th style="width: 7%;">Period</th>
+                    <th style="width: 8%;">Last Stop</th>
                   {% endif %}
                   <th style="width: 25%;">Position @ Lab</th>
-                  <th style="width: 25%;">Next Stop</th>
+                  <th style="width: 40%;">Next Stop</th>
                 </tr>
               </thead>
               <tbody>
