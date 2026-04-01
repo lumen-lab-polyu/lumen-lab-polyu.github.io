@@ -173,10 +173,12 @@ members:
             <table class="table table-borderless centered-table"> 
               <thead>
                 <tr>
-                  <th style="width: 15%;">Name</th>
-                  <th style="width: 15%;">Period</th>
-                  <th style="width: 20%;">Position @ Lab</th>
-                  <th style="width: 25%;">Last Stop</th>
+                  <th style="width: 20%;">Name</th>
+                  {% if member_group.name != "Alumni" %}
+                    <th style="width: 15%;">Period</th>
+                    <th style="width: 20%;">Last Stop</th>
+                  {% endif %}
+                  <th style="width: 25%;">Position @ Lab</th>
                   <th style="width: 25%;">Next Stop</th>
                 </tr>
               </thead>
@@ -192,9 +194,11 @@ members:
                         {% endif %}
                       </strong>
                     </td>
-                    <td>{{ member.period }}</td>
-                    <td>{{ member.position_at_lab}}</td>
-                    <td>{{ member.last_stop }}</td>
+                    {% if member_group.name != "Alumni" %}
+                      <td>{{ member.period }}</td>
+                      <td>{{ member.last_stop }}</td>
+                    {% endif %}
+                    <td>{{ member.position_at_lab }}</td>
                     <td>{{ member.next_stop }}</td>
                   </tr>
                 {% endfor %}
@@ -247,4 +251,3 @@ members:
     </div>
   {% endfor %}
 </div>
-
