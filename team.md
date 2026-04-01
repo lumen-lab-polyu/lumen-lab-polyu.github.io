@@ -68,7 +68,7 @@ members:
           - name: Tianqi Wang (2024-25)
             web_url: https://tianqi-wang1.github.io/
             position_at_lab: Research Assistant
-            next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
+            next_stop: Ph.D. Student (our lab), The Hong Kong Polytechnic University
           - name: Fengxin Li (2025-25)
             web_url: https://scholar.google.jp/citations?user=4-l_XoAAAAAJ&hl=en
             position_at_lab: Visiting Ph.D. Student
@@ -76,11 +76,11 @@ members:
           - name: Zhijie Rao (2023-24)
             web_url: https://zjrao.github.io/
             position_at_lab: Research Assistant
-            next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
+            next_stop: Ph.D. Student (our lab), The Hong Kong Polytechnic University
           - name: Jingming Liang (2023-24)
             web_url: https://mirrorigin.github.io/
             position_at_lab: Research Assistant
-            next_stop: Ph.D. Student, University of Iowa
+            next_stop: Ph.D. Student, The University of Iowa
 ---
 
 <style>
