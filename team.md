@@ -12,15 +12,10 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
-  - name: Postdocs/PhD Students
+  - name: PhD Students
     list:
       - full: true
         list:
-          - name: Dr. Xiaofeng Zou
-            period: 2025/12
-            affiliation: Postdoctoral Researcher
-            photo_url: /assets/img/members/Xiaofeng_Zou.png
-            web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
@@ -66,29 +61,25 @@ members:
     list:
       - full: false
         list:
-          - name: Tianqi Wang
+          - name: Xiaofeng Zou (2025-26)
+            web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
+            position_at_lab: Postdoctoral Researcher
+            next_stop: Associate Professor, South China University of Technology
+          - name: Tianqi Wang (2024-25)
             web_url: https://tianqi-wang1.github.io/
             position_at_lab: Research Assistant
-            period: 2024/09-2025/09
-            last_stop: Master Student, UCL London
             next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
-          - name: Fengxin Li
-            web_url: https://fengxinlee.github.io/FengxinLI.github.io/
+          - name: Fengxin Li (2025)
+            web_url: https://scholar.google.jp/citations?user=4-l_XoAAAAAJ&hl=en
             position_at_lab: Visiting Ph.D. Student
-            period: 2025/02-2025/09
-            last_stop: Ph.D. Student, Renmin University of China
-            next_stop: Renmin University of China
-          - name: Zhijie Rao
+            next_stop: (Return to) Renmin University of China
+          - name: Zhijie Rao (2023-24)
             web_url: https://zjrao.github.io/
             position_at_lab: Research Assistant
-            period: 2023/09-2024/05
-            last_stop: Master Student, Xiamen University
             next_stop: Ph.D. Student (our lab), The Hong Polytechnic University
-          - name: Jingming Liang
+          - name: Jingming Liang (2023-24)
             web_url: https://mirrorigin.github.io/
             position_at_lab: Research Assistant
-            period: 2023/09-2024/03
-            last_stop: Master Student, Huazhong University of Science and Technology
             next_stop: Ph.D. Student, University of Iowa
 ---
 
