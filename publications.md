@@ -104,6 +104,111 @@ publications:
     #    url: "https://arxiv.org/abs/2502.07456"
     #    type: "arxiv"
 
+  - title: "MLDA: Test-Time Multi-Level Adaptation with Dynamic Alignment for Compositional Zero-Shot Learning"
+    authors: "M. Li, Y. Liu, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/IJCAI20261.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Information Entropy for LLM-Generated Text Detection"
+    authors: "X. Yi, H. Wang, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    year: 2026
+    award: 
+    tags: ["APPs"]
+    img: "/assets/img/pubs/IJCAI20262.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "PMCE: Probabilistic Multi-Granularity Semantics with Caption-Guided Enhancement for Few-Shot Learning"
+    authors: "J. Wu, C. Gao, J. Hu, H. Li, X. Cao, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/IJCAI20263.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Gradient Enhancement Task Aware Post-training Quantization"
+    authors: "Y. Shao, Y. Gu, M. Yan, S. Chen, H. Liu, Z. Yan, Y. Li, Y. Wang, Q. Song, H. Tang, H. Qin, J. Guo#, N. Sebe"
+    corresponding_author: "J. Guo"
+    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/IJCAI20264.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Cross Domain Test Time Scaling: Scale Knowledge and Reasoning on Cross Domains"
+    authors: "M. Yan, Y. Shao, Y. Pan, S. Chen, H. Pei, H. Tang, F. Ma, J. Guo#, N. Sebe"
+    corresponding_author: "J. Guo"
+    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/IJCAI20265.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices"
+    authors: "Y. She, Q. Zhou, Y. Wang, Y. Huang, J. Guo, L. Cui"
+    corresponding_author:
+    venue: "Proceedings of International Conference on Machine Learning (ICML), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/ICML20261.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity,"
+    authors: "H. Li, Q. Hou, J. Ma, J. Lai, T. Han, S. Bai, J. Guo, J. Zhang, S. Guo"
+    corresponding_author:
+    venue: "Proceedings of International Conference on Machine Learning (ICML), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/ICML20262.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
   - title: "UNICON: A Unified Reconfigurable Nonlinear Architecture for Efficient Neural Network Inference"
     authors: "X. Zou, C. Chen, Q. Wang, Z. Liu, H. Zhuang, J. Guo"
     corresponding_author:
