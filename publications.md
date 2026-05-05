@@ -77,7 +77,7 @@ publications:
   - title: "Learning by Neighbor-Aware Semantics, Deciding by Open-form Flows: Towards Robust Zero-Shot Skeleton Action Recognition"
     authors: "Y. Chen, M. Li, Z. Rao, D. Zeng, S. Guo, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "Findings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings), 2026."
     year: 2026
     award: 
     tags: ["APPs"]
@@ -92,7 +92,7 @@ publications:
   - title: "Learning Multi-Modal Prototypes for Cross-Domain Few-Shot Object Detection"
     authors: "W. Wang, J. Guo, Y. Cai, Z. Chen"
     corresponding_author:
-    venue: "Findings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings), 2026."
     year: 2026
     award: 
     tags: ["Data"]
@@ -107,7 +107,7 @@ publications:
   - title: "MLDA: Test-Time Multi-Level Adaptation with Dynamic Alignment for Compositional Zero-Shot Learning"
     authors: "M. Li, Y. Liu, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2026."
     year: 2026
     award: 
     tags: ["Data"]
@@ -122,7 +122,7 @@ publications:
   - title: "Information Entropy for LLM-Generated Text Detection"
     authors: "X. Yi, H. Wang, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2026."
     year: 2026
     award: 
     tags: ["APPs"]
@@ -137,7 +137,7 @@ publications:
   - title: "PMCE: Probabilistic Multi-Granularity Semantics with Caption-Guided Enhancement for Few-Shot Learning"
     authors: "J. Wu, C. Gao, J. Hu, H. Li, X. Cao, J. Guo#"
     corresponding_author: "J. Guo"
-    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2026."
     year: 2026
     award: 
     tags: ["Data"]
@@ -152,7 +152,7 @@ publications:
   - title: "Gradient Enhancement Task Aware Post-training Quantization"
     authors: "Y. Shao, Y. Gu, M. Yan, S. Chen, H. Liu, Z. Yan, Y. Li, Y. Wang, Q. Song, H. Tang, H. Qin, J. Guo#, N. Sebe"
     corresponding_author: "J. Guo"
-    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2026."
     year: 2026
     award: 
     tags: ["Capability"]
@@ -167,7 +167,7 @@ publications:
   - title: "Cross Domain Test Time Scaling: Scale Knowledge and Reasoning on Cross Domains"
     authors: "M. Yan, Y. Shao, Y. Pan, S. Chen, H. Pei, H. Tang, F. Ma, J. Guo#, N. Sebe"
     corresponding_author: "J. Guo"
-    venue: "Proceedings of International Joint Conference on Artificial Intelligence (IJCAI), 2026."
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2026."
     year: 2026
     award: 
     tags: ["Capability"]
@@ -182,7 +182,7 @@ publications:
   - title: "Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices"
     authors: "Y. She, Q. Zhou, Y. Wang, Y. Huang, J. Guo, L. Cui"
     corresponding_author:
-    venue: "Proceedings of International Conference on Machine Learning (ICML), 2026."
+    venue: "International Conference on Machine Learning (ICML), 2026."
     year: 2026
     award: 
     tags: ["Capability"]
@@ -197,7 +197,7 @@ publications:
   - title: "What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity,"
     authors: "H. Li, Q. Hou, J. Ma, J. Lai, T. Han, S. Bai, J. Guo, J. Zhang, S. Guo"
     corresponding_author:
-    venue: "Proceedings of International Conference on Machine Learning (ICML), 2026."
+    venue: "International Conference on Machine Learning (ICML), 2026."
     year: 2026
     award: 
     tags: ["Capability"]
