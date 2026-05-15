@@ -49,7 +49,7 @@ members:
           - name: Mr. Mingfeng Zha
             period: 2026/09
             affiliation: PhD Student
-            photo_url: /assets/img/members/Mingfeng_Zha.jpg
+            photo_url: /assets/img/members/mimgfengzha.png
             web_url: https://winter-flow.github.io/
             
   - name: Visitors
