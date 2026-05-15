@@ -12,10 +12,15 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
-  - name: PhD Students
+  - name: Postdocs and PhD Students
     list:
       - full: true
         list:
+          - name: Dr. Guosong Jiang
+            period: 2026/08
+            affiliation: Postdoctoral Researcher
+            photo_url: /assets/img/members/jiangguosong.png
+            web_url: https://t9liverpool.github.io/me/
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
