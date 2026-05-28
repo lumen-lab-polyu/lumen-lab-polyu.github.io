@@ -19,7 +19,7 @@ members:
           - name: Dr. Guosong Jiang
             period: 2026/08
             affiliation: Postdoctoral Researcher
-            previous_affiliation: PhD@Tianjin U
+            previous_affiliation: PhD@Tianjin
             research_interest: Machine Learning, Edge AI
             photo_url: /assets/img/members/jiangguosong.png
             web_url: https://t9liverpool.github.io/me/
@@ -27,13 +27,13 @@ members:
             period: 2024/05
             affiliation: PhD Student
             photo_url: /assets/img/members/Zhijie_Rao1.jpg
-            previous_affiliation: BE@BUPT, ME@Xiamen U
+            previous_affiliation: BE@BUPT, ME@Xiamen
             research_interest: Resource-Constraint AI
             web_url: https://zjrao.github.io/
           - name: Ms. Miaoge Li
             period: 2024/05
             affiliation: PhD Student
-            previous_affiliation: BE, ME@Xidian U
+            previous_affiliation: BE, ME@Xidian
             research_interest: AI Efficiency, Multimodal Learning
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
