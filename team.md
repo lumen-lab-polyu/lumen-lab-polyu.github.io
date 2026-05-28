@@ -33,14 +33,14 @@ members:
           - name: Ms. Miaoge Li
             period: 2024/05
             affiliation: PhD Student
-            previous_affiliation: BE/ME@Xidian U
+            previous_affiliation: BE, ME@Xidian U
             research_interest: AI Efficiency, Multimodal Learning
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
           - name: Mr. Yang Chen
             period: 2024/09
             affiliation: PhD Student
-            previous_affiliation: BE/ME@UESTC
+            previous_affiliation: BE, ME@UESTC
             research_interest: Human-Centric AI, World Models
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
