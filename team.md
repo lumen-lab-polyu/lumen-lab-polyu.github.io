@@ -79,7 +79,7 @@ members:
         list:
           - name: Mr. Yihua Shao
             period: 2025/01
-            affiliation: PhD Student at University of Trento, Italy
+            affiliation: PhD Student@University of Trento, Italy
             research_interest: AI Efficiency, World Models
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
