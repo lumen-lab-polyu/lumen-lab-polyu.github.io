@@ -19,57 +19,57 @@ members:
           - name: Dr. Guosong Jiang
             period: 2026/08
             affiliation: Postdoctoral Researcher
-            previous_affiliation: TJU
-            research_interest: Machine Learning
+            previous_affiliation: PhD@Tianjin U
+            research_interest: Machine Learning, Edge AI
             photo_url: /assets/img/members/jiangguosong.png
             web_url: https://t9liverpool.github.io/me/
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
             photo_url: /assets/img/members/Zhijie_Rao1.jpg
-            previous_affiliation: BUPT, XMU
+            previous_affiliation: BE@BUPT, ME@Xiamen U
             research_interest: Resource-Constraint AI
             web_url: https://zjrao.github.io/
           - name: Ms. Miaoge Li
             period: 2024/05
             affiliation: PhD Student
-            previous_affiliation: XDU
-            research_interest: Multimodal Learning
+            previous_affiliation: BE/ME@Xidian U
+            research_interest: AI Efficiency, Multimodal Learning
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
           - name: Mr. Yang Chen
             period: 2024/09
             affiliation: PhD Student
-            previous_affiliation: UESTC
-            research_interest: Human-Centric AI
+            previous_affiliation: BE/ME@UESTC
+            research_interest: Human-Centric AI, World Models
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
           - name: Mr. Tianqi Wang
             period: 2026/05
             affiliation: PhD Student
-            previous_affiliation: HUST, UCL
-            research_interest: Continual Learning
+            previous_affiliation: BS@HUST, MSc@UCL
+            research_interest: Continual Learning, AI Efficiency
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
           - name: Mr. Xiaorui Jiang
             period: 2026/09
             affiliation: PhD Student
-            previous_affiliation: HFUT, USTC
+            previous_affiliation: BE@HFUT, ME@USTC
             research_interest: Multimodal Learning
             photo_url: /assets/img/members/Xiaorui_Jiang1.jpg
             web_url: https://xiaorui-jiang.github.io/
           - name: Mr. Mingfeng Zha
             period: 2026/09
             affiliation: PhD Student
-            previous_affiliation: JXAU, UESTC
-            research_interest: Multimodal Learning
+            previous_affiliation: BE@JXAU, ME@UESTC
+            research_interest: Multimodal Learning, AI Efficiency
             photo_url: /assets/img/members/mimgfengzha.png
             web_url: https://winter-flow.github.io/
           - name: Mr. Yilei Man
             period: 2026/08
             affiliation: Research Assistant
-            previous_affiliation: THU, UCAS
-            research_interest: World Model
+            previous_affiliation: BE@Tsinghua, ME@UCAS
+            research_interest: World Models
             photo_url: /assets/img/members/Yilei_Man.png
             web_url:
             
@@ -80,6 +80,7 @@ members:
           - name: Mr. Yihua Shao
             period: 2025/01
             affiliation: PhD Student at University of Trento, Italy
+            research_interest: AI Efficiency, World Models
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
 
