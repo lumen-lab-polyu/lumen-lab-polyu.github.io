@@ -12,45 +12,66 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
-  - name: Postdocs and PhD Students
+  - name: Lab Members
     list:
       - full: true
         list:
           - name: Dr. Guosong Jiang
             period: 2026/08
             affiliation: Postdoctoral Researcher
+            previous_affiliation: TJU
+            research_interest: Machine Learning
             photo_url: /assets/img/members/jiangguosong.png
             web_url: https://t9liverpool.github.io/me/
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
             photo_url: /assets/img/members/Zhijie_Rao1.jpg
+            previous_affiliation: BUPT, XMU
+            research_interest: Resource-Constraint AI
             web_url: https://zjrao.github.io/
           - name: Ms. Miaoge Li
             period: 2024/05
             affiliation: PhD Student
+            previous_affiliation: XDU
+            research_interest: Multimodal Learning
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
           - name: Mr. Yang Chen
             period: 2024/09
             affiliation: PhD Student
+            previous_affiliation: UESTC
+            research_interest: Human-Centric AI
             photo_url: /assets/img/members/Yang_Chen.png
             web_url: https://cseeyangchen.github.io/
           - name: Mr. Tianqi Wang
             period: 2026/05
             affiliation: PhD Student
+            previous_affiliation: HUST, UCL
+            research_interest: Continual Learning
             photo_url: /assets/img/members/Tianqi_Wang.jpg
             web_url: https://tianqi-wang1.github.io/
           - name: Mr. Xiaorui Jiang
             period: 2026/09
             affiliation: PhD Student
+            previous_affiliation: HFUT, USTC
+            research_interest: Multimodal Learning
             photo_url: /assets/img/members/Xiaorui_Jiang1.jpg
             web_url: https://xiaorui-jiang.github.io/
           - name: Mr. Mingfeng Zha
             period: 2026/09
             affiliation: PhD Student
+            previous_affiliation: JXAU, UESTC
+            research_interest: Multimodal Learning
             photo_url: /assets/img/members/mimgfengzha.png
             web_url: https://winter-flow.github.io/
+          - name: Mr. Yilei Man
+            period: 2026/08
+            affiliation: Research Assistant
+            previous_affiliation: THU, UCAS
+            research_interest: World Model
+            photo_url: /assets/img/members/Yilei_Man.png
+            web_url:
             
   - name: Visitors
     list:
@@ -115,7 +136,7 @@ members:
     margin-right: -200px !important;
   } */
   
-  .row.justify-content-center .col-lg-3,
+  .row.justify-content-center .col-lg-4,
   .row.justify-content-center .col-md-4,
   .row.justify-content-center .col-sm-6 {
     padding-left: 55px !important;
@@ -157,6 +178,14 @@ members:
     font-style: normal !important;
     margin-top: 5px !important;
     /* margin-bottom: 0 !important; */
+  }
+
+  .member-extra-info {
+    font-size: 0.9em !important;
+    color: #666 !important;
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+    line-height: 1.35 !important;
   }
 
   .special-text-red {
@@ -213,14 +242,14 @@ members:
         {% else %}
           <div class="row justify-content-center">
             {% for member in item_list_container.list %}
-              <div class="col-lg-3 col-md-4 col-sm-6 text-center" style="margin-bottom: 30px;">
+              <div class="col-lg-4 col-md-4 col-sm-6 text-center" style="margin-bottom: 30px;">
                 {% if member.photo_url %}
                   <a href="{{ member.web_url }}" target="_blank">
                     <img src="{{ site.baseurl }}{{ member.photo_url }}" 
                          alt="{{ member.name }}" 
                          style="width: 100px; height: 100px; 
                                 object-fit: cover; 
-                                border-radius: 17%; 
+                                border-radius: 50%; 
                                 margin-bottom: 15px; 
                                 border: 1px solid #f0f0f0;
                                 transition: transform 0.3s ease-in-out;"
@@ -246,7 +275,15 @@ members:
                 {% endif %}
                 
                 {% if member.affiliation %}
-                  <p style="font-size: 0.9em; color: #666; margin-top: 5px;"><em>{{ member.affiliation }}</em></p>
+                  <p style="font-size: 0.9em; color: #666; margin-top: 5px; margin-bottom: 0;"><em>{{ member.affiliation }}</em></p>
+                {% endif %}
+
+                {% if member.previous_affiliation %}
+                  <p class="member-extra-info"><em>{{ member.previous_affiliation }}</em></p>
+                {% endif %}
+
+                {% if member.research_interest %}
+                  <p class="member-extra-info"><em>{{ member.research_interest }}</em></p>
                 {% endif %}
               </div>
             {% endfor %}

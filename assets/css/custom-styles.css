@@ -50,6 +50,9 @@ h4 {
 .team-members-custom img {
   width: 300px !important; /* 原来是 160px */
   height: 300px !important; /* 原来是 160px */
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  clip-path: circle(50%);
 }
 
 /* 调整导航栏字体大小 */
