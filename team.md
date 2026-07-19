@@ -107,22 +107,21 @@ members:
             web_url: https://scholar.google.com/citations?user=Yp5z3xwAAAAJ&hl=en
             position_at_lab: Postdoctoral Researcher
             next_stop: Associate Professor, South China University of Technology
+            
           - name: Tianqi Wang (2024-25)
             web_url: https://tianqi-wang1.github.io/
             position_at_lab: Research Assistant
             next_stop: Ph.D. Student (our lab), The Hong Kong Polytechnic University
+            
           - name: Fengxin Li (2025-25)
             web_url: https://scholar.google.jp/citations?user=4-l_XoAAAAAJ&hl=en
             position_at_lab: Visiting Ph.D. Student
             next_stop: (Return to) Renmin University of China
+            
           - name: Zhijie Rao (2023-24)
             web_url: https://zjrao.github.io/
             position_at_lab: Research Assistant
             next_stop: Ph.D. Student (our lab), The Hong Kong Polytechnic University
-          - name: Jingming Liang (2023-24)
-            web_url: https://mirrorigin.github.io/
-            position_at_lab: Research Assistant
-            next_stop: Ph.D. Student, The University of Iowa
 ---
 
 <style>
