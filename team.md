@@ -18,7 +18,7 @@ members:
         list:
           - name: Dr. Guosong Jiang
             period: 2026/08
-            affiliation: **Postdoctoral Researcher** 
+            affiliation: Postdoctoral Researcher
             previous_affiliation: From Tianjin University
             research_interest: Machine Learning, Edge AI
             photo_url: /assets/img/members/jiangguosong.png
@@ -26,7 +26,7 @@ members:
             
           - name: Mr. Zhijie Rao
             period: 2024/05
-            affiliation: **PhD Student**
+            affiliation: PhD Student
             photo_url: /assets/img/members/Zhijie_Rao1.jpg
             previous_affiliation: From Xiamen University
             research_interest: AI Efficiency, Multimodal Learning
@@ -34,7 +34,7 @@ members:
             
           - name: Ms. Miaoge Li
             period: 2024/05
-            affiliation: **PhD Student**
+            affiliation: PhD Student
             previous_affiliation: From Xidian Univerity
             research_interest: AI Efficiency, Multimodal Learning
             photo_url: /assets/img/members/Miaoge_Li.png
@@ -42,7 +42,7 @@ members:
             
           - name: Mr. Yang Chen
             period: 2024/09
-            affiliation: **PhD Student**
+            affiliation: PhD Student
             previous_affiliation: From University of Electronic Science and Technology of China
             research_interest: Human-Centric AI, World Models 
             photo_url: /assets/img/members/Yang_Chen.png 
@@ -50,7 +50,7 @@ members:
             
           - name: Mr. Tianqi Wang 
             period: 2026/05 
-            affiliation: **PhD Student**
+            affiliation: PhD Student
             previous_affiliation: From University College London 
             research_interest: AI Efficiency, Continual/Incremental Learning
             photo_url: /assets/img/members/Tianqi_Wang.jpg
@@ -58,7 +58,7 @@ members:
             
           - name: Mr. Xiaorui Jiang
             period: 2026/09
-            affiliation: **PhD Student**
+            affiliation: PhD Student
             previous_affiliation: From University of Science and Technology of China
             research_interest: Multimodal Learning, Smart Cities
             photo_url: /assets/img/members/Xiaorui_Jiang1.jpg
@@ -66,7 +66,7 @@ members:
             
           - name: Mr. Mingfeng Zha
             period: 2026/09
-            affiliation: **PhD Student**
+            affiliation: PhD Student
             previous_affiliation: From University of Electronic Science and Technology of China
             research_interest: Multimodal Learning, AI Efficiency
             photo_url: /assets/img/members/mimgfengzha.png
@@ -74,7 +74,7 @@ members:
             
           - name: Mr. Yilei Man
             period: 2026/08
-            affiliation: **Research Assistant**
+            affiliation: Research Assistant
             previous_affiliation: From Tsinghua University
             research_interest: World Models, Representation Learning
             photo_url: /assets/img/members/Yilei_Man.png
@@ -82,7 +82,7 @@ members:
             
           - name: Mr. Bo Ning
             period: 2026/09
-            affiliation: **Research Assistant**
+            affiliation: Research Assistant
             previous_affiliation: From The Hong Kong Polytechnic University
             research_interest: World Models, VLA
             photo_url: /assets/img/members/ningbo.png
@@ -94,7 +94,7 @@ members:
         list:
           - name: Mr. Yihua Shao
             period: 2025/01
-            affiliation: **PhD Student**@University of Trento, Italy
+            affiliation: PhD Student@University of Trento, Italy
             research_interest: AI Efficiency, World Models
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
