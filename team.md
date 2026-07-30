@@ -21,7 +21,7 @@ members:
             affiliation: Postdoctoral Researcher
             previous_affiliation: From Tianjin University
             research_interest: Machine Learning, Edge AI
-            photo_url: /assets/img/members/jiangguosong.png
+            photo_url: /assets/img/members/Guosong_Jiang_new.jpg
             web_url: https://t9liverpool.github.io/me/
             
           - name: Dr. Haoyuan Liu
@@ -29,13 +29,13 @@ members:
             affiliation: Postdoctoral Researcher
             previous_affiliation: From Waseda University
             research_interest: Representation Learning, Agent Systems
-            photo_url: /assets/img/members/haoyuanliu.jpg
+            photo_url: /assets/img/members/haoyuanliu_new.jpg
             web_url: https://github.com/NuayHL
             
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
-            photo_url: /assets/img/members/Zhijie_Rao1.jpg
+            photo_url: /assets/img/members/zhijie_new.jpg
             previous_affiliation: From Xiamen University
             research_interest: AI Efficiency, Multimodal Learning
             web_url: https://zjrao.github.io/
