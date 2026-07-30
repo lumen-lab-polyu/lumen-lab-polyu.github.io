@@ -24,6 +24,14 @@ members:
             photo_url: /assets/img/members/jiangguosong.png
             web_url: https://t9liverpool.github.io/me/
             
+          - name: Dr. Haoyuan Liu
+            period: 2026/10
+            affiliation: Postdoctoral Researcher
+            previous_affiliation: From Waseda University
+            research_interest: Representation Learning, Agent Systems
+            photo_url: /assets/img/members/haoyuanliu.jpg
+            web_url: https://github.com/NuayHL
+            
           - name: Mr. Zhijie Rao
             period: 2024/05
             affiliation: PhD Student
