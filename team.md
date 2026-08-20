@@ -96,7 +96,7 @@ members:
             photo_url: /assets/img/members/ningbo.png
             web_url:
             
-  - name: Visitors
+  - name: Visitors & Affiliates
     list:
       - full: true
         list:
@@ -106,6 +106,14 @@ members:
             research_interest: AI Efficiency, World Models
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
+
+          - name: Ms. Yingying Guo
+            period: 2026/09
+            affiliation: MSc Student@The Hong Kong Polytechnic University🇭🇰
+            research_interest: AI Efficiency, Topology, PDE
+            photo_url: /assets/img/members/yingyingguo.jpg
+            web_url: 
+            
 
   - name: Alumni
     list:
