@@ -12,7 +12,7 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo.png
             web_url: https://jingcaiguo.github.io/
 
-  - name: Lab Members
+  - name: Research Staffs/Students
     list:
       - full: true
         list:
