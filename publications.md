@@ -104,6 +104,36 @@ publications:
     #    url: "https://arxiv.org/abs/2502.07456"
     #    type: "arxiv"
 
+  - title: "Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction"
+    authors: "Z. Chen, Y. Cai, J. Guo, T. Cai, J. Yin, Z. Chen"
+    corresponding_author:
+    venue: "European Conference on Computer Vision (ECCV), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/ECCV2026.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Continual Video-MLLM Adaptation over Evolving Domains"
+    authors: "R. Cheng, M. Shi, Y. Cai, J. Guo, J. Yin, Z. Chen"
+    corresponding_author:
+    venue: "ACM International Conference on Multimedia (ACM-MM), 2026."
+    year: 2026
+    award: 
+    tags: ["APPs"]
+    img: "/assets/img/pubs/ACMMM2026.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
   - title: "MLDA: Test-Time Multi-Level Adaptation with Dynamic Alignment for Compositional Zero-Shot Learning"
     authors: "M. Li, Y. Liu, J. Guo#"
     corresponding_author: "J. Guo"
@@ -172,6 +202,21 @@ publications:
     award: 
     tags: ["Capability"]
     img: "/assets/img/pubs/IJCAI20265.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "LiST: Local-Simplex Test-Time LoRA Fusion"
+    authors: "Y. Shao, J. Li, S. Chen, X. Luo, Y. Liu, K. Chen, X. Long, L. Zhu, F. Zeng, M. Wang, Z. Yan, J. Guo#, H. Tang, N. Sebe, Z. Wang"
+    corresponding_author: "J. Guo"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP Findings), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/EMNLP2026.png"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height:  # 🔧 自定义图片高度
     links:
@@ -307,6 +352,51 @@ publications:
     award: 
     tags: ["APPs"]
     img: "/assets/img/pubs/TCSVT26_1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Attribute Knowledge Inheritance and Evolution for Generalized Zero-shot Learning"
+    authors: "Z Rao, J. Guo#, C Li, S Guo"
+    corresponding_author: "J. Guo"
+    venue: "Information Sciences (IS), 2026."
+    year: 2026
+    award: 
+    tags: ["Data"]
+    img: "/assets/img/pubs/IS2026.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "Towards Fair Federated Edge Learning Through Prototype-Guided Distributed Adversarial Networks"
+    authors: "K. Wei, X. Yuan, Z. Hong, J. Zhang, J. Guo, M. Ding, J. Li, S. Guo"
+    corresponding_author:
+    venue: "IEEE Transactions on Mobile Computing (TMC), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/TMC2026.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
+  - title: "KG-Augmented Executable CoT for Mathematical Coding"
+    authors: "X. Chen, J. An, J. Guo, L. Wang, J. Guo"
+    corresponding_author:
+    venue: "Neural Networks (NN), 2026."
+    year: 2026
+    award: 
+    tags: ["APPs"]
+    img: "/assets/img/pubs/NN2026.png"
     img_width: "200px"  # 🔧 自定义图片宽度
     img_height:  # 🔧 自定义图片高度
     links:
