@@ -9,7 +9,7 @@ members:
       - full: true
         list:
           - name: Prof. Jingcai Guo
-            photo_url: /assets/img/members/Jingcai_Guo.png
+            photo_url: /assets/img/members/Jingcai_Guo202609.jpeg
             web_url: https://jingcaiguo.github.io/
 
   - name: Research Staffs/Students
