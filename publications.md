@@ -104,6 +104,21 @@ publications:
     #    url: "https://arxiv.org/abs/2502.07456"
     #    type: "arxiv"
 
+  - title: "EC-LoRA: Energy-Driven Continual LoRA Implicit Generation"
+    authors: "Y. Shao, J. Li, S. Chen, Y. Liu, K. Lv, H. Tang, N. Sebe, J. Guo#"
+    corresponding_author: "J. Guo"
+    venue: "Transactions on Machine Learning Research (TMLR), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/TMLR2026_1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+    #  - name: "arXiv"
+    #    url: "https://arxiv.org/abs/2502.07456"
+    #    type: "arxiv"
+
   - title: "Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction"
     authors: "Z. Chen, Y. Cai, J. Guo, T. Cai, J. Yin, Z. Chen"
     corresponding_author:
@@ -208,6 +223,54 @@ publications:
     #  - name: "arXiv"
     #    url: "https://arxiv.org/abs/2502.07456"
     #    type: "arxiv"
+
+  - title: "FedProG: Federated Graph Learning via Server-Side LLM Semantic Bridging and Uncertainty-Aware Distillation"
+    authors: "H. Wang, H. Wang, W. Xu, Y. Li, X. Yi, T. Xiao, J. Guo, R. Li"
+    corresponding_author:
+    venue: "Annual Conference on Neural Information Processing Systems (NeurIPS), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/NIPS2026_1.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+
+  - title: "SeaPilot: Mobile Agent with Self-refining Environment Alignment"
+    authors: "Z. Zuo, S. Li, Y. Jiang, H. Wang, Y. Li, W. Xu, J. Guo, R. Li"
+    corresponding_author:
+    venue: "Annual Conference on Neural Information Processing Systems (NeurIPS), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/NIPS2026_2.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+
+  - title: "Beyond Prediction: Steering VLM Agents with Retrospective World Modeling"
+    authors: "Y. Liu, J. Zhang, H. Zhang, J. Guo, D. Zeng, S. Guo"
+    corresponding_author:
+    venue: "Annual Conference on Neural Information Processing Systems (NeurIPS), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/NIPS2026_3.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
+
+  - title: "PACE-dLLM: Elastic Block Decoding via Confidence Cliff Estimation for Diffusion Language Models"
+    authors: "X. Lu, S. Guo, Z. Ma, J. Zhang, J. Liu, J. Guo, H. Che, S. Guo"
+    corresponding_author:
+    venue: "Annual Conference on Neural Information Processing Systems (NeurIPS), 2026."
+    year: 2026
+    award: 
+    tags: ["Capability"]
+    img: "/assets/img/pubs/NIPS2026_4.png"
+    img_width: "200px"  # 🔧 自定义图片宽度
+    img_height:  # 🔧 自定义图片高度
+    links:
 
   - title: "LiST: Local-Simplex Test-Time LoRA Fusion"
     authors: "Y. Shao, J. Li, S. Chen, X. Luo, Y. Liu, K. Chen, X. Long, L. Zhu, F. Zeng, M. Wang, Z. Yan, J. Guo#, H. Tang, N. Sebe, Z. Wang"
