@@ -17,7 +17,7 @@ members:
       - full: true
         list:
           - name: Dr. Guosong Jiang
-            period: 2026/08
+            period: Joined in 2026
             affiliation: Postdoctoral Researcher
             previous_affiliation: 👨🏻‍🎓 Tianjin University🇨🇳
             research_interest: Machine Learning, Edge AI
@@ -25,39 +25,47 @@ members:
             web_url: https://t9liverpool.github.io/me/
             
           - name: Dr. Haoyuan Liu
-            period: 2026/10
+            period: Joined in 2026
             affiliation: Postdoctoral Researcher
             previous_affiliation: 👨🏻‍🎓 Waseda University🇯🇵
             research_interest: Representation Learning, Agent Systems
             photo_url: /assets/img/members/haoyuanliu_new.jpg
             web_url: https://github.com/NuayHL
-            
-          - name: Mr. Zhijie Rao
-            period: 2024/05
+
+          - name: Dr. Ruikun Luo
+            period: Joined in 2026
+            affiliation: Postdoctoral Researcher
+            previous_affiliation: 👨🏻‍🎓 Huazhong University of Science and Technology🇨🇳
+            research_interest: Edge AI, Agents, LLMs
+            photo_url: /assets/img/members/luoruikun.jpg
+            web_url: https://rkluohust.github.io
+          
+          - name: Mr. Yang Chen
+            period: Joined in 2024
             affiliation: PhD Student
-            photo_url: /assets/img/members/zhijie_new.jpg
-            previous_affiliation: 👨🏻‍🎓 Xiamen University🇨🇳
-            research_interest: AI Efficiency, Multimodal Learning
-            web_url: https://zjrao.github.io/
-            
+            previous_affiliation: 👨🏻‍🎓 University of Electronic Science and Technology of China🇨🇳
+            research_interest: Human-Centric AI, World Models 
+            photo_url: /assets/img/members/Yang_Chen.png 
+            web_url: https://cseeyangchen.github.io/
+
           - name: Ms. Miaoge Li
-            period: 2024/05
+            period: Joined in 2024
             affiliation: PhD Student
             previous_affiliation: 👩🏻‍🎓 Xidian Univerity🇨🇳
             research_interest: AI Efficiency, Multimodal Learning
             photo_url: /assets/img/members/Miaoge_Li.png
             web_url: https://keepgoingjkg.github.io/about/
             
-          - name: Mr. Yang Chen
-            period: 2024/09
+          - name: Mr. Zhijie Rao
+            period: Joined in 2024
             affiliation: PhD Student
-            previous_affiliation: 👨🏻‍🎓 University of Electronic Science and Technology of China🇨🇳
-            research_interest: Human-Centric AI, World Models 
-            photo_url: /assets/img/members/Yang_Chen.png 
-            web_url: https://cseeyangchen.github.io/
+            photo_url: /assets/img/members/zhijie_new.jpg
+            previous_affiliation: 👨🏻‍🎓 Xiamen University🇨🇳
+            research_interest: AI Efficiency, Multimodal Learning
+            web_url: https://zjrao.github.io/
             
           - name: Mr. Tianqi Wang 
-            period: 2026/05 
+            period: Joined in 2026
             affiliation: PhD Student
             previous_affiliation: 👨🏻‍🎓 University College London🇬🇧
             research_interest: AI Efficiency, Continual/Incremental Learning
@@ -65,7 +73,7 @@ members:
             web_url: https://tianqi-wang1.github.io/
             
           - name: Mr. Xiaorui Jiang
-            period: 2026/09
+            period: Joined in 2026
             affiliation: PhD Student
             previous_affiliation: 👨🏻‍🎓 University of Science and Technology of China🇨🇳
             research_interest: Multimodal Learning, Smart Cities
@@ -73,7 +81,7 @@ members:
             web_url: https://xiaorui-jiang.github.io/
             
           - name: Mr. Mingfeng Zha
-            period: 2026/09
+            period: Joined in 2026
             affiliation: PhD Student
             previous_affiliation: 👨🏻‍🎓 University of Electronic Science and Technology of China🇨🇳
             research_interest: Multimodal Learning, AI Efficiency
@@ -81,7 +89,7 @@ members:
             web_url: https://winter-flow.github.io/
             
           - name: Mr. Yilei Man
-            period: 2026/08
+            period: Joined in 2026
             affiliation: Research Assistant
             previous_affiliation: 👨🏻‍🎓 Tsinghua University🇨🇳
             research_interest: World Models, Representation Learning
@@ -89,7 +97,7 @@ members:
             web_url:
             
           - name: Mr. Bo Ning
-            period: 2026/09
+            period: Joined in 2026
             affiliation: Research Assistant
             previous_affiliation: 👨🏻‍🎓 The Hong Kong Polytechnic University🇭🇰
             research_interest: World Models, VLA
@@ -101,14 +109,14 @@ members:
       - full: true
         list:
           - name: Mr. Yihua Shao
-            period: 2025/01
+            period: Joined in 2025
             affiliation: PhD Student@University of Trento🇮🇹
             research_interest: AI Efficiency, World Models
             photo_url: /assets/img/members/Yihua_Shao.jpg
             web_url: https://github.com/YihuaJerry
 
           - name: Ms. Yingying Guo
-            period: 2026/09
+            period: Joined in 2026
             affiliation: MSc Student@The Hong Kong Polytechnic University🇭🇰
             research_interest: AI Efficiency, Topology, PDE
             photo_url: /assets/img/members/yingyingguo.jpg
