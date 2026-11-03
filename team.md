@@ -12,7 +12,7 @@ members:
             photo_url: /assets/img/members/Jingcai_Guo202609.jpeg
             web_url: https://jingcaiguo.github.io/
 
-  - name: Research Staffs/Students
+  - name: Postdoctoral Researchers
     list:
       - full: true
         list:
@@ -39,7 +39,11 @@ members:
             research_interest: Edge AI, Agents, LLMs
             photo_url: /assets/img/members/luoruikun.jpg
             web_url: https://rkluohust.github.io
-          
+            
+  - name: PhD Students & Research Assistants
+    list:
+      - full: true
+        list:      
           - name: Mr. Yang Chen
             period: Joined in 2024
             affiliation: PhD Student
