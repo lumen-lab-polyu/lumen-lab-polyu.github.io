@@ -33,7 +33,7 @@ members:
             web_url: https://github.com/NuayHL
 
           - name: Dr. Ruikun Luo
-            period: Will join in 2026
+            period: Will join in 2027
             affiliation: Postdoctoral Researcher
             previous_affiliation: PhD(HUST🇨🇳)
             research_interest: Edge AI, Agents, LLMs
